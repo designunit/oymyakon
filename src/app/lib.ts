@@ -1,3 +1,4 @@
+import {flatMap} from 'lodash'
 import { ICase } from './types'
 
 export function treeKey(prefix: string, value: string): string {
@@ -9,8 +10,7 @@ export function caseKey(prefix: string, caseValue: string): string {
 }
 
 export function getCaseKeysSet(cases: ICase[]): Set<string> {
-    return new Set(cases
-        .flatMap(x => [
+    return new Set(flatMap(cases, x => [
             caseKey('topic', x.topic),
             caseKey('user', x.user),
             caseKey('season', x.season),

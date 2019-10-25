@@ -1,8 +1,9 @@
 import { arrayToDomains } from '../lib/array'
+import { flatMap } from 'lodash'
 import { NivoLink } from '../components/Sankey'
 
 export function collect(transitions: Array<[number, string[]]>): NivoLink[] {
-    const result = transitions.flatMap(link => {
+    const result = flatMap(transitions, link => {
         const value = link[0] as number
         const transition = link[1] as string[]
         const ts = arrayToDomains(transition)
