@@ -9,4 +9,13 @@ module.exports = withCss({
         MAPBOX_TOKEN: 'pk.eyJ1IjoidG1zaHYiLCJhIjoiM3BMLVc2MCJ9.PM9ukwAm-YUGlrBqt4V6vw',
         APP_ACCESS_MODE: 'readonly',
     },
+    exportPathMap: async (defaultPathMap, { dev }) => {
+        if (dev) {
+            return null
+        }
+
+        return {
+            '/': { page: '/' },
+        }
+    },
 })

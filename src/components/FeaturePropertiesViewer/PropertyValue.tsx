@@ -1,4 +1,5 @@
 import * as React from 'react'
+import { flatMap } from 'lodash'
 import { Table, Switch } from 'antd'
 import { Json } from '../Json'
 
@@ -8,13 +9,13 @@ export const PropertyValue: React.FC<{ value: any }> = ({ value }) => {
             <span>{value}</span>
         )
     }
-    
+
     if (typeof value === 'number') {
         return (
             <span>{value}</span>
         )
     }
-    
+
     if (typeof value === 'boolean') {
         return (
             <Switch
@@ -23,7 +24,7 @@ export const PropertyValue: React.FC<{ value: any }> = ({ value }) => {
             />
         )
     }
-    
+
     if (Array.isArray(value)) {
         return (
             <TableValue
@@ -41,7 +42,7 @@ export const PropertyValue: React.FC<{ value: any }> = ({ value }) => {
 
 const TableValue: React.FC<{ data: any[] }> = props => {
     const columns = Array
-        .from(new Set(props.data.flatMap(x => Object.keys(x))))
+        .from(new Set(flatMap(props.data, x => Object.keys(x))))
         .map(key => ({
             title: key,
             dataIndex: key,

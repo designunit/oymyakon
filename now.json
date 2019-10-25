@@ -1,7 +1,6 @@
 {
     "version": 2,
     "name": "oymyakon",
-    "alias": "oymyakon.now.sh",
     "builds": [
         {
             "src": "package.json",
