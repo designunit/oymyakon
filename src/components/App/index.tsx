@@ -355,12 +355,13 @@ const App: React.FC<IAppProps> = props => {
         })
     }, [])
 
-    React.useEffect(() => {
-        setUpdatingProject(true)
-        updateProject(project).then(() => {
-            setUpdatingProject(false)
-        })
-    }, [project])
+    // React.useEffect(() => {
+    //     console.log('effect update project')
+    //     setUpdatingProject(true)
+    //     updateProject(project).then(() => {
+    //         setUpdatingProject(false)
+    //     })
+    // }, [project])
 
     const onSubmitLayer = React.useCallback(async (layer: ILayer) => {
         const updatedLayer = await updateLayer(layer)

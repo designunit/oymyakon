@@ -5,12 +5,11 @@ import Head from 'next/head'
 import Media from 'react-media'
 import { Point, Feature } from 'geojson'
 import { Spin, Icon } from 'antd'
-import { useRequest } from 'use-request-hook'
 import { flatMapTree } from '../src/lib/tree'
 import { treeCaseData } from '../src/app'
-import { getLayers, getFeatures, getProject } from '../src/app/api'
 import { ILayer } from '../src/app/types'
 import { createIndex } from '../src/lib'
+import { useData } from '../src/hooks/useData'
 
 import 'antd/dist/antd.css'
 
@@ -65,8 +64,6 @@ const getMapStyle = (dark: boolean) => dark
     ? 'mapbox://styles/mapbox/dark-v9'
     : 'mapbox://styles/mapbox/light-v9'
 
-const loadProject = () => getProject(1)
-
 interface IPageProps {
 }
 
@@ -74,10 +71,10 @@ const Page: NextPage<IPageProps> = (props) => {
     const readonly = process.env.APP_ACCESS_MODE === 'readonly'
     const mapboxToken = process.env.MAPBOX_TOKEN || ''
 
-    const { isLoading: isProjectLoading, data: project = {} } = useRequest(loadProject, {})
-    const { isLoading: isFeaturesLoading, data: features = [] } = useRequest(getFeatures, [])
-    const { isLoading: isLayersLoading, data: layers = [] } = useRequest(getLayers, [])
-    const isLoading = isLayersLoading || isFeaturesLoading || isProjectLoading
+    const [projects, layers, features] = useData()
+    const project = projects.length ? projects[0] : null
+    const isLoading = !project
+
     const [mapStyleOption, setMapStyleOption] = React.useState<string>(mapStyleOptions[0].value)
 
     const defaultCheckedCaseKeys = flatMapTree<string, { key: string }>(x => x.key, treeCaseData())

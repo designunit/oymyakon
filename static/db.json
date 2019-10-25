@@ -1,0 +1,4607 @@
+{
+  "projects": [
+    {
+      "id": 1,
+      "name": "Oymyakon",
+      "layers": [
+        1,
+        3,
+        2
+      ]
+    }
+  ],
+  "layers": [
+    {
+      "name": "Cases",
+      "id": 1,
+      "color": "#ff00ff",
+      "schemaContent": "{\n  \"editor\": \"case-table\",\n  \"filter\": \"case-filter\",\n  \"markerText\": [\"get\", \"properties.cases.length\"]\n}",
+      "schema": {
+        "version": "1",
+        "editor": "case-table",
+        "filter": "case-filter",
+        "markerText": [
+          "get",
+          "properties.cases.length"
+        ]
+      },
+      "featureIds": [
+        13,
+        14,
+        15,
+        16,
+        19,
+        20,
+        22,
+        23,
+        24,
+        25,
+        29,
+        31,
+        36,
+        39,
+        41,
+        43,
+        46,
+        48,
+        50,
+        56,
+        60,
+        61,
+        166794488,
+        166795001,
+        166795002,
+        166795233,
+        166795234,
+        166795235,
+        166795236,
+        166796490,
+        166819634,
+        166819638,
+        167234459,
+        168127956,
+        168165092,
+        100,
+        101
+      ]
+    },
+    {
+      "name": "Stages",
+      "color": "#ffffff",
+      "readonly": false,
+      "id": 2,
+      "featureIds": [
+        168165098,
+        168165113,
+        168165112,
+        168165106,
+        168165095,
+        168165094,
+        168165109,
+        168165099,
+        168165105,
+        168165110,
+        168165111,
+        168165107,
+        168165101,
+        168165108,
+        168165104,
+        168165103,
+        168165096,
+        168165097,
+        168165114,
+        168165115,
+        168165116,
+        168165117,
+        168165118,
+        168165119,
+        168165120,
+        168165121,
+        168165122,
+        168165123,
+        168165124,
+        168165125,
+        168165126,
+        168165127,
+        168165128,
+        168165129,
+        168165130,
+        168165131,
+        168165132,
+        168165133,
+        168165134,
+        168165135,
+        168165136,
+        168165137,
+        168165138,
+        168165139,
+        168165140,
+        168165141,
+        168165142,
+        168165143,
+        168165144,
+        168165145,
+        168165147,
+        168165148,
+        168165149,
+        168165150,
+        168165151,
+        168165152,
+        168165153,
+        168165154,
+        168165155,
+        168165156,
+        168165218,
+        168165219,
+        168165220,
+        168165221,
+        168165222,
+        168165223,
+        168165240,
+        168165241,
+        168165242,
+        168165243,
+        168165244,
+        168165245,
+        168165246,
+        168165247,
+        168165248,
+        168165249,
+        168165250,
+        168165251,
+        168165252,
+        168165253,
+        168165254,
+        168165256,
+        168165257,
+        168165258,
+        168165259,
+        168165260,
+        168165261,
+        168165262,
+        168165263,
+        168165264,
+        168165265,
+        168165266,
+        168165267,
+        168165268,
+        168165269,
+        168165270,
+        168165271
+      ],
+      "schemaContent": "//jjj\n{\n  \"editor\": [\n    {\"field\": \"name\", \"view\": [\"input\"]},\n    {\"field\": \"description\", \"view\": [\"text\"]},\n    {\"field\": \"stage\", \"view\": [\"select\",\n      [\"СТАРТОВЫЙ\", \"ЦЕЛЕВОЙ\"]\n    ]},\n    {\"field\": \"function\", \"view\": [\"select\",\n      [\"НАЗЕМНЫЙ ТРАНСПОРТ\", \"ВОЗДУШНЫЙ ТРАНСПОРТ\", \"РАЗМЕЩЕНИЕ\", \"ЛОКАЦИЯ НАУЧНОГО ЦЕНТРА\"]\n    ]},\n  ],\n  \"markerColor\": [\n    \"select\",\n    \"stage\",\n    \"white\",\n    [\"#ff99cc\" , \"#ff0066\"],\n  ],\n  \"markerText\": [\n    \"select\",\n    \"function\",\n    \"x\",\n    [\"🚘\" , \"✈\", \" \", \"⚙\"],\n  ],\n  \"filter\": [\"stage\", \"function\"],\n}",
+      "schema": {
+        "version": "1",
+        "editor": [
+          {
+            "field": "name",
+            "view": [
+              "input"
+            ]
+          },
+          {
+            "field": "description",
+            "view": [
+              "text"
+            ]
+          },
+          {
+            "field": "stage",
+            "view": [
+              "select",
+              [
+                "СТАРТОВЫЙ",
+                "ЦЕЛЕВОЙ"
+              ]
+            ]
+          },
+          {
+            "field": "function",
+            "view": [
+              "select",
+              [
+                "НАЗЕМНЫЙ ТРАНСПОРТ",
+                "ВОЗДУШНЫЙ ТРАНСПОРТ",
+                "РАЗМЕЩЕНИЕ",
+                "ЛОКАЦИЯ НАУЧНОГО ЦЕНТРА"
+              ]
+            ]
+          }
+        ],
+        "markerColor": [
+          "select",
+          "stage",
+          "white",
+          [
+            "#ff99cc",
+            "#ff0066"
+          ]
+        ],
+        "markerText": [
+          "select",
+          "function",
+          "x",
+          [
+            "🚘",
+            "✈",
+            " ",
+            "⚙"
+          ]
+        ],
+        "filter": [
+          "stage",
+          "function"
+        ]
+      }
+    },
+    {
+      "name": "POI",
+      "color": "GreenYellow",
+      "readonly": false,
+      "featureIds": [
+        168165158,
+        168165160,
+        168165159,
+        168165164,
+        168165165,
+        168165166,
+        168165167,
+        168165168,
+        168165171,
+        168165172,
+        168165173,
+        168165169,
+        168165174,
+        168165176,
+        168165177,
+        168165179,
+        168165181,
+        168165184,
+        168165186,
+        168165187,
+        168165183,
+        168165190,
+        168165191,
+        168165196,
+        168165192,
+        168165199,
+        168165200,
+        168165202,
+        168165201,
+        168165205,
+        168165206,
+        168165212,
+        168165214,
+        168165213,
+        168165215,
+        168165216,
+        168165217,
+        168165225,
+        168165226,
+        168165227,
+        168165228,
+        168165229,
+        168165230,
+        168165231,
+        168165232,
+        168165233,
+        168165234,
+        168165235,
+        168165236,
+        168165237,
+        168165238,
+        168165239
+      ],
+      "schema": {
+        "version": "1",
+        "editor": [
+          {
+            "field": "name",
+            "view": [
+              "input"
+            ]
+          },
+          {
+            "field": "description",
+            "view": [
+              "text"
+            ]
+          }
+        ],
+        "markerText": "☼"
+      },
+      "id": 3,
+      "schemaContent": "{\n  \"editor\": [\n    {\"field\": \"name\", \"view\": [\"input\"]},\n    {\"field\": \"description\", \"view\": [\"text\"]},\n  ],\n  \"markerText\": \"☼\",\n}"
+    }
+  ],
+  "features": [
+    {
+      "feature": {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            113.9919273,
+            62.5279244,
+            0
+          ]
+        },
+        "properties": {
+          "id": 13,
+          "name": "Мирный, алмазный карьер",
+          "description": "\n\nалмазный карьер",
+          "cases": [
+            {
+              "id": 141,
+              "topic": "EXT",
+              "user": "LUX",
+              "season": "A"
+            }
+          ]
+        },
+        "id": 13
+      },
+      "id": 13
+    },
+    {
+      "feature": {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            161.5064717,
+            68.5132026,
+            0
+          ]
+        },
+        "properties": {
+          "id": 14,
+          "name": "Плейстоценовый парк",
+          "description": "\n\n",
+          "cases": [
+            {
+              "id": 146,
+              "topic": "EXT",
+              "user": "LUX",
+              "season": "A"
+            }
+          ]
+        },
+        "id": 14
+      },
+      "id": 14
+    },
+    {
+      "feature": {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            134.3873352,
+            70.4422216,
+            0
+          ]
+        },
+        "properties": {
+          "id": 15,
+          "name": "Улахан-Сис",
+          "description": "\n\n",
+          "cases": [
+            {
+              "id": 143,
+              "topic": "ECO",
+              "user": "LUX",
+              "season": "A"
+            }
+          ]
+        },
+        "id": 15
+      },
+      "id": 15
+    },
+    {
+      "feature": {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            136.806549,
+            62.779167,
+            0
+          ]
+        },
+        "properties": {
+          "id": 16,
+          "name": "Тёплый ключ",
+          "description": "\n\n",
+          "cases": [
+            {
+              "id": 17,
+              "topic": "GUL",
+              "user": "RUS",
+              "season": "A"
+            },
+            {
+              "id": 18,
+              "topic": "GUL",
+              "user": "EU+JAP",
+              "season": "A"
+            }
+          ]
+        },
+        "id": 16
+      },
+      "id": 16
+    },
+    {
+      "feature": {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            149.1897068,
+            61.3243295,
+            0
+          ]
+        },
+        "properties": {
+          "id": 19,
+          "name": "Бутугычаг",
+          "description": "\n\n",
+          "cases": [
+            {
+              "id": 33,
+              "topic": "GUL",
+              "user": "SPEC",
+              "season": "A"
+            }
+          ]
+        },
+        "id": 19
+      },
+      "id": 19
+    },
+    {
+      "feature": {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            151.1047187,
+            60.2007108,
+            0
+          ]
+        },
+        "properties": {
+          "id": 20,
+          "name": "Карамкен",
+          "description": "\n\n",
+          "cases": [
+            {
+              "id": 36,
+              "topic": "INDS",
+              "user": "SPEC",
+              "season": "A"
+            }
+          ]
+        },
+        "id": 20
+      },
+      "id": 20
+    },
+    {
+      "feature": {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            125.3961002,
+            58.6057234,
+            0
+          ]
+        },
+        "properties": {
+          "id": 22,
+          "name": "Алданский (ИТЛ)",
+          "description": "\n\n",
+          "cases": [
+            {
+              "id": 38,
+              "topic": "GUL",
+              "user": "SPEC",
+              "season": "A"
+            }
+          ]
+        },
+        "id": 22
+      },
+      "id": 22
+    },
+    {
+      "feature": {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            150.841238,
+            65.767376,
+            0
+          ]
+        },
+        "properties": {
+          "id": 23,
+          "name": "Зырянка",
+          "description": "\n\n",
+          "cases": [
+            {
+              "id": 37,
+              "topic": "GUL",
+              "user": "SPEC",
+              "season": "A"
+            }
+          ]
+        },
+        "id": 23
+      },
+      "id": 23
+    },
+    {
+      "feature": {
+        "type": "Feature",
+        "geometry": {
+          "coordinates": [
+            143.24293945684474,
+            64.56642044806637
+          ],
+          "type": "Point"
+        },
+        "properties": {
+          "id": 24,
+          "name": "Усть-Нера",
+          "description": "\n\n",
+          "cases": [
+            {
+              "id": 20,
+              "topic": "GUL",
+              "user": "RUS",
+              "season": "W"
+            },
+            {
+              "id": 21,
+              "topic": "GUL",
+              "user": "RUS",
+              "season": "S"
+            },
+            {
+              "id": 22,
+              "topic": "GUL",
+              "user": "EU+JAP",
+              "season": "W"
+            },
+            {
+              "id": 23,
+              "topic": "GUL",
+              "user": "EU+JAP",
+              "season": "S"
+            }
+          ]
+        },
+        "id": 24
+      },
+      "id": 24
+    },
+    {
+      "feature": {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            124.9061549,
+            56.8351892,
+            0
+          ]
+        },
+        "properties": {
+          "id": 25,
+          "name": "Чульман (Немнырлаг)",
+          "description": "\n\n",
+          "cases": [
+            {
+              "id": 39,
+              "topic": "GUL",
+              "user": "SPEC",
+              "season": "A"
+            }
+          ]
+        },
+        "id": 25
+      },
+      "id": 25
+    },
+    {
+      "feature": {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            135.8549959,
+            62.216473,
+            0
+          ]
+        },
+        "properties": {
+          "id": 29,
+          "name": "Джебарики-Хая",
+          "description": "\n\n",
+          "cases": [
+            {
+              "id": 29,
+              "topic": "GUL",
+              "user": "SPEC",
+              "season": "A"
+            }
+          ]
+        },
+        "id": 29
+      },
+      "id": 29
+    },
+    {
+      "feature": {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            135.974722,
+            64.073333,
+            0
+          ]
+        },
+        "properties": {
+          "id": 31,
+          "name": "Тополиное",
+          "description": "\n\n",
+          "cases": [
+            {
+              "id": 6,
+              "topic": "GUL",
+              "user": "RUS",
+              "season": "W"
+            },
+            {
+              "id": 7,
+              "topic": "GUL",
+              "user": "RUS",
+              "season": "S"
+            },
+            {
+              "id": 8,
+              "topic": "GUL",
+              "user": "EU+JAP",
+              "season": "W"
+            },
+            {
+              "id": 9,
+              "topic": "GUL",
+              "user": "EU+JAP",
+              "season": "S"
+            }
+          ]
+        },
+        "id": 31
+      },
+      "id": 31
+    },
+    {
+      "feature": {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            133.550781,
+            62.352112,
+            0
+          ]
+        },
+        "properties": {
+          "id": 36,
+          "name": "Ытык-Кюель",
+          "description": "\n\n",
+          "cases": [
+            {
+              "id": 35,
+              "topic": "GUL",
+              "user": "SPEC",
+              "season": "A"
+            }
+          ]
+        },
+        "id": 36
+      },
+      "id": 36
+    },
+    {
+      "id": 39,
+      "feature": {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.443611,
+            63.138889,
+            0
+          ]
+        },
+        "properties": {
+          "id": 39,
+          "name": "Куранах-Сала",
+          "description": "\n\n",
+          "cases": [
+            {
+              "id": 31,
+              "topic": "GUL",
+              "user": "SPEC",
+              "season": "A"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "feature": {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            142.5472925,
+            64.6156736,
+            0
+          ]
+        },
+        "properties": {
+          "id": 41,
+          "name": "Ольчанский перевал",
+          "description": "\n\n",
+          "cases": [
+            {
+              "id": 32,
+              "topic": "GUL",
+              "user": "SPEC",
+              "season": "A"
+            }
+          ]
+        },
+        "id": 41
+      },
+      "id": 41
+    },
+    {
+      "feature": {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.6111111,
+            63.838889,
+            0
+          ]
+        },
+        "properties": {
+          "id": 43,
+          "name": "Делянкир",
+          "description": "\n\n",
+          "cases": [
+            {
+              "id": 30,
+              "topic": "GUL",
+              "user": "SPEC",
+              "season": "A"
+            }
+          ]
+        },
+        "id": 43
+      },
+      "id": 43
+    },
+    {
+      "feature": {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            135.5539801,
+            62.6564079,
+            0
+          ]
+        },
+        "properties": {
+          "id": 46,
+          "name": "Хандыга",
+          "description": "\n\n",
+          "cases": [
+            {
+              "id": 11,
+              "topic": "GUL",
+              "user": "RUS",
+              "season": "A"
+            },
+            {
+              "id": 12,
+              "topic": "GUL",
+              "user": "EU+JAP",
+              "season": "A"
+            },
+            {
+              "id": 13,
+              "topic": "GUL",
+              "user": "CHINA",
+              "season": "W"
+            }
+          ]
+        },
+        "id": 46
+      },
+      "id": 46
+    },
+    {
+      "feature": {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            143.6166627,
+            62.4941681,
+            0
+          ]
+        },
+        "properties": {
+          "id": 48,
+          "name": "Лабынкыр",
+          "description": "\n\n",
+          "cases": [
+            {
+              "id": 0,
+              "topic": "EXT",
+              "user": "LUX",
+              "season": "W"
+            },
+            {
+              "id": 1,
+              "topic": "ECO",
+              "user": "EU+JAP",
+              "season": "A"
+            },
+            {
+              "id": 2,
+              "topic": "ECO",
+              "user": "RUS",
+              "season": "A"
+            },
+            {
+              "id": 3,
+              "topic": "OYM",
+              "user": "EU+JAP",
+              "season": "W"
+            },
+            {
+              "id": 4,
+              "topic": "OYM",
+              "user": "RUS",
+              "season": "W"
+            }
+          ]
+        },
+        "id": 48
+      },
+      "id": 48
+    },
+    {
+      "id": 50,
+      "feature": {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.443611,
+            63.138889,
+            0
+          ]
+        },
+        "properties": {
+          "id": 50,
+          "name": "Куранах-Сала",
+          "description": "\n\n",
+          "cases": [
+            {
+              "id": 31,
+              "topic": "GUL",
+              "user": "SPEC",
+              "season": "A"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "feature": {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            147.05,
+            63.083333,
+            0
+          ]
+        },
+        "properties": {
+          "id": 56,
+          "name": "Кадыкчан",
+          "description": "\n\nгород-призрак",
+          "cases": [
+            {
+              "id": 148,
+              "topic": "GUL",
+              "user": "SPEC",
+              "season": "A"
+            }
+          ]
+        },
+        "id": 56
+      },
+      "id": 56
+    },
+    {
+      "feature": {
+        "type": "Feature",
+        "geometry": {
+          "coordinates": [
+            143.2057658889532,
+            63.26099310708222
+          ],
+          "type": "Point"
+        },
+        "properties": {
+          "id": 60,
+          "name": "Томтор",
+          "description": "\n\n",
+          "cases": [
+            {
+              "id": 153,
+              "topic": "OYM",
+              "user": "CHINA",
+              "season": "W"
+            },
+            {
+              "id": 154,
+              "topic": "OYM",
+              "user": "EU+JAP",
+              "season": "A"
+            },
+            {
+              "id": 155,
+              "topic": "OYM",
+              "user": "RUS",
+              "season": "A"
+            }
+          ]
+        },
+        "id": 60
+      },
+      "id": 60
+    },
+    {
+      "feature": {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.4436333,
+            63.1389006,
+            0
+          ]
+        },
+        "properties": {
+          "id": 61,
+          "name": "Куранах-Сала",
+          "description": "\n\n",
+          "cases": [
+            {
+              "id": 31,
+              "topic": "GUL",
+              "user": "SPEC",
+              "season": "A"
+            }
+          ]
+        },
+        "id": 61
+      },
+      "id": 61
+    },
+    {
+      "feature": {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            148.145863,
+            63.695172,
+            0
+          ]
+        },
+        "properties": {
+          "id": 166794488,
+          "name": "озеро Момонтай",
+          "description": "Россия, Магаданская область, Сусуманский городской округ, озеро Момонтай\n\nописание: Россия, Магаданская область, Сусуманский городской округ, озеро Момонтай<br>id: 166794488<br>iconContent: <br>iconCaption: озеро Момонтай Магаданская обалсть",
+          "cases": [
+            {
+              "id": 131,
+              "topic": "ECO",
+              "user": "LUX",
+              "season": "A"
+            }
+          ]
+        },
+        "id": 166794488
+      },
+      "id": 166794488
+    },
+    {
+      "feature": {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            142.027014,
+            63.841802,
+            0
+          ]
+        },
+        "properties": {
+          "id": 166795001,
+          "name": "у реки Беппей",
+          "description": "Видовая у лагеря\nhttps://karpukhins.livejournal.com/130841.html\nМесто стоянки - 63грд.50,1с.ш. - 142грд.02,3в.д.. Поднимался на гору, которая начинается к западу от стоянки, соответственно уходил за обрез листа карты.\n\nописание: Видовая у лагеря<br>https://karpukhins.livejournal.com/130841.html<br>Место стоянки - 63грд.50,1с.ш. - 142грд.02,3в.д.. Поднимался на гору, которая начинается к западу от стоянки, соответственно уходил за обрез листа карты.<br>id: 166795001<br>iconContent: <br>iconCaption: точка 2 (?)",
+          "cases": [
+            {
+              "id": 66,
+              "topic": "ECO",
+              "user": "RUS",
+              "season": "S"
+            },
+            {
+              "id": 67,
+              "topic": "ECO",
+              "user": "EU+JAP",
+              "season": "S"
+            },
+            {
+              "id": 68,
+              "topic": "ECO",
+              "user": "SOLO",
+              "season": "S"
+            },
+            {
+              "id": 69,
+              "topic": "ECO",
+              "user": "RUS",
+              "season": "W"
+            },
+            {
+              "id": 70,
+              "topic": "ECO",
+              "user": "EU+JAP",
+              "season": "W"
+            },
+            {
+              "id": 71,
+              "topic": "ECO",
+              "user": "SOLO",
+              "season": "W"
+            },
+            {
+              "id": 72,
+              "topic": "OYM",
+              "user": "EU+JAP",
+              "season": "W"
+            },
+            {
+              "id": 73,
+              "topic": "OYM",
+              "user": "RUS",
+              "season": "W"
+            }
+          ]
+        },
+        "id": 166795001
+      },
+      "id": 166795001
+    },
+    {
+      "feature": {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            141.895349,
+            64.049866,
+            0
+          ]
+        },
+        "properties": {
+          "id": 166795002,
+          "name": "метеостанция Юрты",
+          "description": "https://karpukhins.livejournal.com/131401.html\nМетеостанция находится здесь. Координаты - 64грд.с.ш.02,8-141грд.в.д.53,7\n\nописание: https://karpukhins.livejournal.com/131401.html<br>Метеостанция находится здесь. Координаты - 64грд.с.ш.02,8-141грд.в.д.53,7<br>id: 166795002<br>iconContent: <br>iconCaption: метеостанция Юрты",
+          "cases": [
+            {
+              "id": 75,
+              "topic": "ECO",
+              "user": "RUS",
+              "season": "S"
+            },
+            {
+              "id": 76,
+              "topic": "ECO",
+              "user": "EU+JAP",
+              "season": "S"
+            },
+            {
+              "id": 77,
+              "topic": "ECO",
+              "user": "SOLO",
+              "season": "S"
+            },
+            {
+              "id": 78,
+              "topic": "ECO",
+              "user": "RUS",
+              "season": "W"
+            },
+            {
+              "id": 79,
+              "topic": "ECO",
+              "user": "EU+JAP",
+              "season": "W"
+            },
+            {
+              "id": 80,
+              "topic": "ECO",
+              "user": "SOLO",
+              "season": "W"
+            },
+            {
+              "id": 81,
+              "topic": "OYM",
+              "user": "EU+JAP",
+              "season": "W"
+            },
+            {
+              "id": 82,
+              "topic": "OYM",
+              "user": "RUS",
+              "season": "W"
+            }
+          ]
+        },
+        "id": 166795002
+      },
+      "id": 166795002
+    },
+    {
+      "feature": {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            142.413166,
+            64.266723,
+            0
+          ]
+        },
+        "properties": {
+          "id": 166795233,
+          "name": "устье реки Киняс-Юрях",
+          "description": "https://karpukhins.livejournal.com/131695.html\n\nописание: https://karpukhins.livejournal.com/131695.html<br>id: 166795233<br>iconContent: <br>iconCaption: точка 3",
+          "cases": [
+            {
+              "id": 84,
+              "topic": "ECO",
+              "user": "RUS",
+              "season": "S"
+            },
+            {
+              "id": 85,
+              "topic": "ECO",
+              "user": "EU+JAP",
+              "season": "S"
+            },
+            {
+              "id": 86,
+              "topic": "ECO",
+              "user": "SOLO",
+              "season": "S"
+            },
+            {
+              "id": 87,
+              "topic": "ECO",
+              "user": "RUS",
+              "season": "W"
+            },
+            {
+              "id": 88,
+              "topic": "ECO",
+              "user": "EU+JAP",
+              "season": "W"
+            },
+            {
+              "id": 89,
+              "topic": "ECO",
+              "user": "SOLO",
+              "season": "W"
+            },
+            {
+              "id": 90,
+              "topic": "OYM",
+              "user": "EU+JAP",
+              "season": "W"
+            },
+            {
+              "id": 91,
+              "topic": "OYM",
+              "user": "RUS",
+              "season": "W"
+            }
+          ]
+        },
+        "id": 166795233
+      },
+      "id": 166795233
+    },
+    {
+      "feature": {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            142.76799,
+            64.279033,
+            0
+          ]
+        },
+        "properties": {
+          "id": 166795234,
+          "name": "река Тарын",
+          "description": "https://karpukhins.livejournal.com/132061.html\nТочка 64грд.,16,689с.ш.-142грд.,46,242в.д.\n\nописание: https://karpukhins.livejournal.com/132061.html<br>Точка 64грд.,16,689с.ш.-142грд.,46,242в.д.<br>id: 166795234<br>iconContent: <br>iconCaption: точка 4",
+          "cases": [
+            {
+              "id": 93,
+              "topic": "ECO",
+              "user": "RUS",
+              "season": "S"
+            },
+            {
+              "id": 94,
+              "topic": "ECO",
+              "user": "EU+JAP",
+              "season": "S"
+            },
+            {
+              "id": 95,
+              "topic": "ECO",
+              "user": "SOLO",
+              "season": "S"
+            },
+            {
+              "id": 96,
+              "topic": "ECO",
+              "user": "RUS",
+              "season": "W"
+            },
+            {
+              "id": 97,
+              "topic": "ECO",
+              "user": "EU+JAP",
+              "season": "W"
+            },
+            {
+              "id": 98,
+              "topic": "ECO",
+              "user": "SOLO",
+              "season": "W"
+            },
+            {
+              "id": 99,
+              "topic": "OYM",
+              "user": "EU+JAP",
+              "season": "W"
+            },
+            {
+              "id": 100,
+              "topic": "OYM",
+              "user": "RUS",
+              "season": "W"
+            }
+          ]
+        },
+        "id": 166795234
+      },
+      "id": 166795234
+    },
+    {
+      "feature": {
+        "type": "Feature",
+        "geometry": {
+          "coordinates": [
+            143.32838610911028,
+            64.63986939494303
+          ],
+          "type": "Point"
+        },
+        "properties": {
+          "id": 166795235,
+          "name": "ручей Поворотный",
+          "description": "https://karpukhins.livejournal.com/133094.html\n\nописание: https://karpukhins.livejournal.com/133094.html<br>id: 166795235<br>iconContent: <br>iconCaption: точка 5 лагерь Усть-Нера",
+          "cases": [
+            {
+              "id": 102,
+              "topic": "ECO",
+              "user": "RUS",
+              "season": "S"
+            },
+            {
+              "id": 103,
+              "topic": "ECO",
+              "user": "EU+JAP",
+              "season": "S"
+            },
+            {
+              "id": 104,
+              "topic": "ECO",
+              "user": "SOLO",
+              "season": "S"
+            }
+          ]
+        },
+        "id": 166795235
+      },
+      "id": 166795235
+    },
+    {
+      "feature": {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            143.383138,
+            64.614949,
+            0
+          ]
+        },
+        "properties": {
+          "id": 166795236,
+          "name": "Оймяконские кисиляхи",
+          "description": "\n\nописание: <br>id: 166795236<br>iconContent: <br>iconCaption: Кисиляхи!!!!! Таас-Кыстаабыт",
+          "cases": [
+            {
+              "id": 41,
+              "topic": "ECO",
+              "user": "EU+JAP",
+              "season": "S"
+            },
+            {
+              "id": 42,
+              "topic": "ECO",
+              "user": "RUS",
+              "season": "S"
+            },
+            {
+              "id": 43,
+              "topic": "ECO",
+              "user": "SPEC",
+              "season": "S"
+            }
+          ]
+        },
+        "id": 166795236
+      },
+      "id": 166795236
+    },
+    {
+      "feature": {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.01761,
+            63.163097,
+            0
+          ]
+        },
+        "properties": {
+          "id": 166796490,
+          "name": "Орто-Балаган + места выше по ре",
+          "description": "рыбалка в 20 км вверх по течению, 10 августа - 30 сентября\n\nописание: рыбалка в 20 км вверх по течению, 10 августа - 30 сентября<br>id: 166796490<br>iconContent: <br>iconCaption: Орто-Балаган",
+          "cases": [
+            {
+              "id": 110,
+              "topic": "ECO",
+              "user": "RUS",
+              "season": "A"
+            },
+            {
+              "id": 111,
+              "topic": "ECO",
+              "user": "EU+JAP",
+              "season": "A"
+            },
+            {
+              "id": 112,
+              "topic": "ECO",
+              "user": "SOLO",
+              "season": "A"
+            }
+          ]
+        },
+        "id": 166796490
+      },
+      "id": 166796490
+    },
+    {
+      "feature": {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.397301,
+            62.821681,
+            0
+          ]
+        },
+        "properties": {
+          "id": 166819634,
+          "name": "озеро Алысардах",
+          "description": "подледная рыбалка, март\nТеплые палатки\n\nhttps://www.oymiakon-tour.com/festival-polyus-holoda\n\nРоссия, Республика Саха (Якутия), муниципальный район Оймяконский улус, озеро Алысардах\n\nописание: подледная рыбалка, март<br>Теплые палатки<br><br>https://www.oymiakon-tour.com/festival-polyus-holoda<br><br>Россия, Республика Саха (Якутия), муниципальный район Оймяконский улус, озеро Алысардах<br>id: 166819634<br>iconContent: <br>iconCaption: озеро Алысардах",
+          "cases": [
+            {
+              "id": 114,
+              "topic": "ECO",
+              "user": "RUS",
+              "season": "A"
+            },
+            {
+              "id": 115,
+              "topic": "ECO",
+              "user": "EU+JAP",
+              "season": "A"
+            },
+            {
+              "id": 116,
+              "topic": "ECO",
+              "user": "SOLO",
+              "season": "A"
+            }
+          ]
+        },
+        "id": 166819634
+      },
+      "id": 166819634
+    },
+    {
+      "feature": {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            149.528002,
+            62.076856,
+            0
+          ]
+        },
+        "properties": {
+          "id": 166819638,
+          "name": "озеро Джека Лондона",
+          "description": "Россия, Магаданская область, Ягоднинский городской округ, озеро Джека Лондона\n\nописание: Россия, Магаданская область, Ягоднинский городской округ, озеро Джека Лондона<br>id: 166819638<br>iconContent: <br>iconCaption: озеро Джека Лондона Магаданская обл",
+          "cases": [
+            {
+              "id": 133,
+              "topic": "ECO",
+              "user": "RUS",
+              "season": "S"
+            },
+            {
+              "id": 134,
+              "topic": "ECO",
+              "user": "EU+JAP",
+              "season": "S"
+            },
+            {
+              "id": 135,
+              "topic": "ECO",
+              "user": "LUX",
+              "season": "S"
+            },
+            {
+              "id": 136,
+              "topic": "ECO",
+              "user": "LUX",
+              "season": "A"
+            }
+          ]
+        },
+        "id": 166819638
+      },
+      "id": 166819638
+    },
+    {
+      "feature": {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            142.168033,
+            63.302294,
+            0
+          ]
+        },
+        "properties": {
+          "id": 167234459,
+          "name": "Ючюгей",
+          "description": "оленеводческий поселок",
+          "cases": [
+            {
+              "id": 45,
+              "topic": "OYM",
+              "user": "EU+JAP",
+              "season": "S"
+            },
+            {
+              "id": 46,
+              "topic": "OYM",
+              "user": "EU+JAP",
+              "season": "W"
+            },
+            {
+              "id": 47,
+              "topic": "OYM",
+              "user": "RUS",
+              "season": "S"
+            },
+            {
+              "id": 48,
+              "topic": "OYM",
+              "user": "RUS",
+              "season": "W"
+            },
+            {
+              "id": 49,
+              "topic": "OYM",
+              "user": "SOLO",
+              "season": "S"
+            },
+            {
+              "id": 50,
+              "topic": "OYM",
+              "user": "SOLO",
+              "season": "W"
+            },
+            {
+              "id": 51,
+              "topic": "OYM",
+              "user": "LUX",
+              "season": "A"
+            }
+          ]
+        },
+        "id": 167234459
+      },
+      "id": 167234459
+    },
+    {
+      "feature": {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            143.45812,
+            63.91687,
+            0
+          ]
+        },
+        "properties": {
+          "id": 168127956,
+          "name": "Дражный + Нелькан",
+          "description": "Месторождение золото, с макроанализа\n\nописание: Месторождение золото, с макроанализа<br>id: 168127956<br>iconContent: <br>iconCaption: Дражный",
+          "cases": [
+            {
+              "id": 106,
+              "topic": "INDS",
+              "user": "SPEC",
+              "season": "S"
+            },
+            {
+              "id": 107,
+              "topic": "INDS",
+              "user": "SPEC",
+              "season": "W"
+            },
+            {
+              "id": 108,
+              "topic": "INDS",
+              "user": "LUX",
+              "season": "S"
+            }
+          ]
+        },
+        "id": 168127956
+      },
+      "id": 168127956
+    },
+    {
+      "feature": {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            142.802002,
+            65.778237,
+            0
+          ]
+        },
+        "properties": {
+          "id": 168165092,
+          "name": "река Чибагалах",
+          "description": "\n\nописание: <br>id: 168165092<br>iconContent: <br>iconCaption: река Чибагалах",
+          "cases": [
+            {
+              "id": 128,
+              "topic": "ECO",
+              "user": "RUS",
+              "season": "S"
+            },
+            {
+              "id": 129,
+              "topic": "ECO",
+              "user": "EU+JAP",
+              "season": "S"
+            }
+          ]
+        },
+        "id": 168165092
+      },
+      "id": 168165092
+    },
+    {
+      "feature": {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            128.5721802,
+            61.2267414,
+            0
+          ]
+        },
+        "properties": {
+          "id": 100,
+          "name": "Ленские столбы",
+          "description": "\n\nописание: <br>id: <br>iconContent: <br>iconCaption: ",
+          "cases": [
+            {
+              "id": 138,
+              "topic": "ECO",
+              "user": "LUX",
+              "season": "S"
+            }
+          ]
+        },
+        "id": 100
+      },
+      "id": 100
+    },
+    {
+      "feature": {
+        "type": "Feature",
+        "geometry": {
+          "coordinates": [
+            142.7863989295982,
+            63.463507007861665
+          ],
+          "type": "Point"
+        },
+        "properties": {
+          "id": 101,
+          "name": "Оймякон",
+          "description": "\n\nописание: <br>id: <br>iconContent: <br>iconCaption:",
+          "cases": [
+            {
+              "id": 150,
+              "topic": "OYM",
+              "user": "EU+JAP",
+              "season": "W"
+            },
+            {
+              "id": 151,
+              "topic": "OYM",
+              "user": "RUS",
+              "season": "W"
+            }
+          ]
+        },
+        "id": 101
+      },
+      "id": 101
+    },
+    {
+      "feature": {
+        "type": "Feature",
+        "geometry": {
+          "coordinates": [
+            136.84563758898602,
+            62.7885866541687
+          ],
+          "type": "Point"
+        },
+        "properties": {
+          "cases": [],
+          "name": "HOM",
+          "id": 168165094,
+          "description": "жилье гостевой центр\n",
+          "stage": "СТАРТОВЫЙ",
+          "function": "РАЗМЕЩЕНИЕ"
+        },
+        "id": 168165094
+      },
+      "id": 168165094
+    },
+    {
+      "feature": {
+        "type": "Feature",
+        "geometry": {
+          "coordinates": [
+            136.83735959957116,
+            62.790859515526286
+          ],
+          "type": "Point"
+        },
+        "properties": {
+          "cases": [],
+          "name": "дирижабль ангар",
+          "id": 168165095,
+          "description": "",
+          "stage": "СТАРТОВЫЙ",
+          "function": "ВОЗДУШНЫЙ ТРАНСПОРТ"
+        },
+        "id": 168165095
+      },
+      "id": 168165095
+    },
+    {
+      "feature": {
+        "type": "Feature",
+        "geometry": {
+          "coordinates": [
+            143.23653072012925,
+            63.25649974784294
+          ],
+          "type": "Point"
+        },
+        "properties": {
+          "cases": [],
+          "name": "гараж волгобасов",
+          "id": 168165096,
+          "description": "",
+          "stage": "СТАРТОВЫЙ",
+          "function": "ТРАНСПОРТ"
+        },
+        "id": 168165096
+      },
+      "id": 168165096
+    },
+    {
+      "feature": {
+        "type": "Feature",
+        "geometry": {
+          "coordinates": [
+            143.19648720798062,
+            63.25954385516748
+          ],
+          "type": "Point"
+        },
+        "properties": {
+          "cases": [],
+          "name": "HOM",
+          "id": 168165097,
+          "description": "жилье резиденция 8-12 чел",
+          "stage": "СТАРТОВЫЙ",
+          "function": "РАЗМЕЩЕНИЕ"
+        },
+        "id": 168165097
+      },
+      "id": 168165097
+    },
+    {
+      "feature": {
+        "type": "Feature",
+        "geometry": {
+          "coordinates": [
+            142.7868792390043,
+            63.4620531322126
+          ],
+          "type": "Point"
+        },
+        "properties": {
+          "cases": [],
+          "name": "дирижабль ангар",
+          "id": 168165098,
+          "description": "",
+          "stage": "СТАРТОВЫЙ",
+          "function": "ВОЗДУШНЫЙ ТРАНСПОРТ"
+        },
+        "id": 168165098
+      },
+      "id": 168165098
+    },
+    {
+      "feature": {
+        "type": "Feature",
+        "geometry": {
+          "coordinates": [
+            136.00112088379043,
+            64.08555279797001
+          ],
+          "type": "Point"
+        },
+        "properties": {
+          "cases": [],
+          "name": "дирижабль причал",
+          "id": 168165099,
+          "description": "",
+          "stage": "СТАРТОВЫЙ",
+          "function": "ВОЗДУШНЫЙ ТРАНСПОРТ"
+        },
+        "id": 168165099
+      },
+      "id": 168165099
+    },
+    {
+      "feature": {
+        "type": "Feature",
+        "geometry": {
+          "coordinates": [
+            147.15266359769316,
+            63.05261018350478
+          ],
+          "type": "Point"
+        },
+        "properties": {
+          "cases": [],
+          "name": "дирижабль причал",
+          "id": 168165101,
+          "description": "",
+          "stage": "СТАРТОВЫЙ",
+          "function": "ВОЗДУШНЫЙ ТРАНСПОРТ"
+        },
+        "id": 168165101
+      },
+      "id": 168165101
+    },
+    {
+      "feature": {
+        "type": "Feature",
+        "geometry": {
+          "coordinates": [
+            143.17487835910293,
+            63.243190433773364
+          ],
+          "type": "Point"
+        },
+        "properties": {
+          "cases": [],
+          "name": "самолет",
+          "id": 168165103,
+          "description": "модернизированная впп",
+          "stage": "СТАРТОВЫЙ",
+          "function": "ВОЗДУШНЫЙ ТРАНСПОРТ"
+        },
+        "id": 168165103
+      },
+      "id": 168165103
+    },
+    {
+      "feature": {
+        "type": "Feature",
+        "geometry": {
+          "coordinates": [
+            143.56211114171006,
+            62.57233929506422
+          ],
+          "type": "Point"
+        },
+        "properties": {
+          "cases": [],
+          "name": "дирижабль причал",
+          "id": 168165104,
+          "description": "",
+          "stage": "ЦЕЛЕВОЙ",
+          "function": "ВОЗДУШНЫЙ ТРАНСПОРТ"
+        },
+        "id": 168165104
+      },
+      "id": 168165104
+    },
+    {
+      "feature": {
+        "type": "Feature",
+        "geometry": {
+          "coordinates": [
+            149.4954787735213,
+            62.11382378179147
+          ],
+          "type": "Point"
+        },
+        "properties": {
+          "cases": [],
+          "name": "дирижабль причал",
+          "id": 168165105,
+          "description": "",
+          "stage": "ЦЕЛЕВОЙ",
+          "function": "ВОЗДУШНЫЙ ТРАНСПОРТ"
+        },
+        "id": 168165105
+      },
+      "id": 168165105
+    },
+    {
+      "feature": {
+        "type": "Feature",
+        "geometry": {
+          "coordinates": [
+            147.1703144510042,
+            63.0370944891213
+          ],
+          "type": "Point"
+        },
+        "properties": {
+          "cases": [],
+          "name": "HOM",
+          "id": 168165106,
+          "description": "жилье резиденция 8-12 чел",
+          "stage": "СТАРТОВЫЙ",
+          "function": "РАЗМЕЩЕНИЕ"
+        },
+        "id": 168165106
+      },
+      "id": 168165106
+    },
+    {
+      "feature": {
+        "type": "Feature",
+        "geometry": {
+          "coordinates": [
+            143.2346302318608,
+            64.56288288411709
+          ],
+          "type": "Point"
+        },
+        "properties": {
+          "cases": [],
+          "name": "HOM",
+          "id": 168165107,
+          "description": "жилье резиденция 8-12",
+          "stage": "СТАРТОВЫЙ",
+          "function": "РАЗМЕЩЕНИЕ"
+        },
+        "id": 168165107
+      },
+      "id": 168165107
+    },
+    {
+      "feature": {
+        "type": "Feature",
+        "geometry": {
+          "coordinates": [
+            143.59223198603735,
+            62.564723248005606
+          ],
+          "type": "Point"
+        },
+        "properties": {
+          "cases": [],
+          "name": "CAMP",
+          "id": 168165108,
+          "description": "",
+          "stage": "СТАРТОВЫЙ",
+          "function": "РАЗМЕЩЕНИЕ"
+        },
+        "id": 168165108
+      },
+      "id": 168165108
+    },
+    {
+      "feature": {
+        "type": "Feature",
+        "geometry": {
+          "coordinates": [
+            135.95466701758326,
+            64.08913429469568
+          ],
+          "type": "Point"
+        },
+        "properties": {
+          "cases": [],
+          "name": "SUIT",
+          "id": 168165109,
+          "description": "жилье",
+          "stage": "СТАРТОВЫЙ",
+          "function": "РАЗМЕЩЕНИЕ"
+        },
+        "id": 168165109
+      },
+      "id": 168165109
+    },
+    {
+      "feature": {
+        "type": "Feature",
+        "geometry": {
+          "coordinates": [
+            142.55797157186163,
+            64.62059196085613
+          ],
+          "type": "Point"
+        },
+        "properties": {
+          "cases": [],
+          "name": "CAMP",
+          "id": 168165110,
+          "stage": "СТАРТОВЫЙ",
+          "function": "ОБЪЕКТ"
+        },
+        "id": 168165110
+      },
+      "id": 168165110
+    },
+    {
+      "feature": {
+        "type": "Feature",
+        "geometry": {
+          "coordinates": [
+            143.37121580255754,
+            64.61699813502591
+          ],
+          "type": "Point"
+        },
+        "properties": {
+          "cases": [],
+          "name": "CAMP",
+          "id": 168165111,
+          "description": "Оймяконские кисиляхи",
+          "stage": "СТАРТОВЫЙ",
+          "function": "РАЗМЕЩЕНИЕ"
+        },
+        "id": 168165111
+      },
+      "id": 168165111
+    },
+    {
+      "feature": {
+        "type": "Feature",
+        "geometry": {
+          "coordinates": [
+            144.0368844380408,
+            63.15611177628369
+          ],
+          "type": "Point"
+        },
+        "properties": {
+          "cases": [],
+          "name": "SUIT",
+          "id": 168165112,
+          "description": "жилье",
+          "stage": "СТАРТОВЫЙ",
+          "function": "РАЗМЕЩЕНИЕ"
+        },
+        "id": 168165112
+      },
+      "id": 168165112
+    },
+    {
+      "feature": {
+        "type": "Feature",
+        "geometry": {
+          "coordinates": [
+            142.17545260179372,
+            63.30353171536512
+          ],
+          "type": "Point"
+        },
+        "properties": {
+          "cases": [],
+          "name": "SUIT ",
+          "id": 168165113,
+          "description": "жилье",
+          "stage": "СТАРТОВЫЙ",
+          "function": "РАЗМЕЩЕНИЕ"
+        },
+        "id": 168165113
+      },
+      "id": 168165113
+    },
+    {
+      "feature": {
+        "type": "Feature",
+        "geometry": {
+          "coordinates": [
+            142.80158023075532,
+            63.45918869540586
+          ],
+          "type": "Point"
+        },
+        "properties": {
+          "name": "волгабас гараж",
+          "stage": "СТАРТОВЫЙ",
+          "function": "НАЗЕМНЫЙ ТРАНСПОРТ"
+        },
+        "id": 168165114
+      },
+      "id": 168165114
+    },
+    {
+      "feature": {
+        "type": "Feature",
+        "geometry": {
+          "coordinates": [
+            142.78612147931537,
+            63.459282438935894
+          ],
+          "type": "Point"
+        },
+        "properties": {
+          "name": "HOM",
+          "description": "жилье резиденция 6 чел",
+          "stage": "СТАРТОВЫЙ",
+          "function": "РАЗМЕЩЕНИЕ"
+        },
+        "id": 168165115
+      },
+      "id": 168165115
+    },
+    {
+      "feature": {
+        "type": "Feature",
+        "geometry": {
+          "coordinates": [
+            138.9963397434822,
+            63.11637036851753
+          ],
+          "type": "Point"
+        },
+        "properties": {
+          "name": "SHELTER",
+          "stage": "СТАРТОВЫЙ",
+          "function": "РАЗМЕЩЕНИЕ",
+          "description": "жилье “спасательный” модуль"
+        },
+        "id": 168165116
+      },
+      "id": 168165116
+    },
+    {
+      "feature": {
+        "type": "Feature",
+        "geometry": {
+          "coordinates": [
+            138.03798075224964,
+            63.036326826865874
+          ],
+          "type": "Point"
+        },
+        "properties": {
+          "name": "SHELTER",
+          "stage": "СТАРТОВЫЙ",
+          "function": "РАЗМЕЩЕНИЕ",
+          "description": "жилье “спасательный” модуль"
+        },
+        "id": 168165117
+      },
+      "id": 168165117
+    },
+    {
+      "feature": {
+        "type": "Feature",
+        "geometry": {
+          "coordinates": [
+            139.94476440791982,
+            63.32209010209565
+          ],
+          "type": "Point"
+        },
+        "properties": {
+          "name": "SHELTER",
+          "stage": "СТАРТОВЫЙ",
+          "function": "РАЗМЕЩЕНИЕ",
+          "description": "жилье “спасательный” модуль"
+        },
+        "id": 168165118
+      },
+      "id": 168165118
+    },
+    {
+      "feature": {
+        "type": "Feature",
+        "geometry": {
+          "coordinates": [
+            141.25359490205338,
+            64.14324315741771
+          ],
+          "type": "Point"
+        },
+        "properties": {
+          "name": "SHELTER",
+          "stage": "СТАРТОВЫЙ",
+          "function": "РАЗМЕЩЕНИЕ",
+          "description": "жилье “спасательный” модуль"
+        },
+        "id": 168165119
+      },
+      "id": 168165119
+    },
+    {
+      "feature": {
+        "type": "Feature",
+        "geometry": {
+          "coordinates": [
+            141.9307601153841,
+            64.41297720272672
+          ],
+          "type": "Point"
+        },
+        "properties": {
+          "name": "SHELTER",
+          "stage": "СТАРТОВЫЙ",
+          "function": "РАЗМЕЩЕНИЕ",
+          "description": "жилье “спасательный” модуль"
+        },
+        "id": 168165120
+      },
+      "id": 168165120
+    },
+    {
+      "feature": {
+        "type": "Feature",
+        "geometry": {
+          "coordinates": [
+            140.90573605958454,
+            63.68848227167022
+          ],
+          "type": "Point"
+        },
+        "properties": {
+          "name": "SHELTER",
+          "stage": "СТАРТОВЫЙ",
+          "function": "РАЗМЕЩЕНИЕ",
+          "description": "жилье “спасательный” модуль"
+        },
+        "id": 168165121
+      },
+      "id": 168165121
+    },
+    {
+      "feature": {
+        "type": "Feature",
+        "geometry": {
+          "coordinates": [
+            144.32433961425383,
+            64.43416303523222
+          ],
+          "type": "Point"
+        },
+        "properties": {
+          "name": "SHELTER",
+          "stage": "СТАРТОВЫЙ",
+          "function": "РАЗМЕЩЕНИЕ",
+          "description": "жилье “спасательный” модуль"
+        },
+        "id": 168165122
+      },
+      "id": 168165122
+    },
+    {
+      "feature": {
+        "type": "Feature",
+        "geometry": {
+          "coordinates": [
+            151.96387807829805,
+            61.30450685198639
+          ],
+          "type": "Point"
+        },
+        "properties": {
+          "name": "SHELTER",
+          "stage": "СТАРТОВЫЙ",
+          "function": "РАЗМЕЩЕНИЕ",
+          "description": "жилье “спасательный” модуль"
+        },
+        "id": 168165123
+      },
+      "id": 168165123
+    },
+    {
+      "feature": {
+        "type": "Feature",
+        "geometry": {
+          "coordinates": [
+            152.31682663499072,
+            61.70899241892166
+          ],
+          "type": "Point"
+        },
+        "properties": {
+          "name": "SHELTER",
+          "description": "существующий",
+          "stage": "СТАРТОВЫЙ",
+          "function": "РАЗМЕЩЕНИЕ"
+        },
+        "id": 168165124
+      },
+      "id": 168165124
+    },
+    {
+      "feature": {
+        "type": "Feature",
+        "geometry": {
+          "coordinates": [
+            151.41890485983313,
+            60.50843145047303
+          ],
+          "type": "Point"
+        },
+        "properties": {
+          "name": "SHELTER",
+          "stage": "СТАРТОВЫЙ",
+          "function": "РАЗМЕЩЕНИЕ",
+          "description": "жилье “спасательный” модуль"
+        },
+        "id": 168165125
+      },
+      "id": 168165125
+    },
+    {
+      "feature": {
+        "type": "Feature",
+        "geometry": {
+          "coordinates": [
+            142.77974097063654,
+            63.46488797534466
+          ],
+          "type": "Point"
+        },
+        "properties": {
+          "name": "СКЦ",
+          "description": "социально-культурный центр",
+          "stage": "СТАРТОВЫЙ",
+          "function": "ЛОКАЦИЯ НАУЧНОГО ЦЕНТРА"
+        },
+        "id": 168165126
+      },
+      "id": 168165126
+    },
+    {
+      "feature": {
+        "type": "Feature",
+        "geometry": {
+          "coordinates": [
+            142.7836989552962,
+            63.45908865593111
+          ],
+          "type": "Point"
+        },
+        "properties": {
+          "name": "НАУЧНЫЙ ЦЕНТР",
+          "stage": "ЦЕЛЕВОЙ",
+          "function": "ЛОКАЦИЯ НАУЧНОГО ЦЕНТРА"
+        },
+        "id": 168165127
+      },
+      "id": 168165127
+    },
+    {
+      "feature": {
+        "type": "Feature",
+        "geometry": {
+          "coordinates": [
+            136.82033518899152,
+            62.78459796699096
+          ],
+          "type": "Point"
+        },
+        "properties": {
+          "name": "НАУЧНЫЙ ЦЕНТР",
+          "stage": "ЦЕЛЕВОЙ",
+          "function": "ЛОКАЦИЯ НАУЧНОГО ЦЕНТРА"
+        },
+        "id": 168165128
+      },
+      "id": 168165128
+    },
+    {
+      "feature": {
+        "type": "Feature",
+        "geometry": {
+          "coordinates": [
+            142.76783979689017,
+            63.46451674752191
+          ],
+          "type": "Point"
+        },
+        "properties": {
+          "name": "дрон",
+          "stage": "ЦЕЛЕВОЙ",
+          "function": "ВОЗДУШНЫЙ ТРАНСПОРТ"
+        },
+        "id": 168165129
+      },
+      "id": 168165129
+    },
+    {
+      "feature": {
+        "type": "Feature",
+        "geometry": {
+          "coordinates": [
+            128.69324345736078,
+            61.18628035951026
+          ],
+          "type": "Point"
+        },
+        "properties": {
+          "name": "дирижабль причал",
+          "stage": "ЦЕЛЕВОЙ",
+          "function": "ВОЗДУШНЫЙ ТРАНСПОРТ"
+        },
+        "id": 168165130
+      },
+      "id": 168165130
+    },
+    {
+      "feature": {
+        "type": "Feature",
+        "geometry": {
+          "coordinates": [
+            136.8363221714106,
+            62.787262143411596
+          ],
+          "type": "Point"
+        },
+        "properties": {
+          "name": "волгабас гараж",
+          "stage": "ЦЕЛЕВОЙ",
+          "function": "НАЗЕМНЫЙ ТРАНСПОРТ"
+        },
+        "id": 168165131
+      },
+      "id": 168165131
+    },
+    {
+      "feature": {
+        "type": "Feature",
+        "geometry": {
+          "coordinates": [
+            136.8520382821726,
+            62.788132777770784
+          ],
+          "type": "Point"
+        },
+        "properties": {
+          "name": "самолет",
+          "description": "модернизированный аэропорт",
+          "stage": "СТАРТОВЫЙ",
+          "function": "ВОЗДУШНЫЙ ТРАНСПОРТ"
+        },
+        "id": 168165132
+      },
+      "id": 168165132
+    },
+    {
+      "feature": {
+        "type": "Feature",
+        "geometry": {
+          "coordinates": [
+            142.7807928816111,
+            63.462492362803765
+          ],
+          "type": "Point"
+        },
+        "properties": {
+          "name": "UNIT",
+          "description": "жилье",
+          "stage": "СТАРТОВЫЙ",
+          "function": "РАЗМЕЩЕНИЕ"
+        },
+        "id": 168165133
+      },
+      "id": 168165133
+    },
+    {
+      "feature": {
+        "type": "Feature",
+        "geometry": {
+          "coordinates": [
+            136.81105466832395,
+            62.78529940000098
+          ],
+          "type": "Point"
+        },
+        "properties": {
+          "name": "UNIT",
+          "description": "жилье",
+          "stage": "ЦЕЛЕВОЙ",
+          "function": "РАЗМЕЩЕНИЕ"
+        },
+        "id": 168165134
+      },
+      "id": 168165134
+    },
+    {
+      "feature": {
+        "type": "Feature",
+        "geometry": {
+          "coordinates": [
+            143.21452396629067,
+            63.263107498682785
+          ],
+          "type": "Point"
+        },
+        "properties": {
+          "name": "UNIT",
+          "description": "жилье",
+          "stage": "ЦЕЛЕВОЙ",
+          "function": "РАЗМЕЩЕНИЕ"
+        },
+        "id": 168165135
+      },
+      "id": 168165135
+    },
+    {
+      "feature": {
+        "type": "Feature",
+        "geometry": {
+          "coordinates": [
+            143.24372963005197,
+            64.57020740766373
+          ],
+          "type": "Point"
+        },
+        "properties": {
+          "name": "UNIT",
+          "description": "жилье",
+          "stage": "ЦЕЛЕВОЙ",
+          "function": "РАЗМЕЩЕНИЕ"
+        },
+        "id": 168165136
+      },
+      "id": 168165136
+    },
+    {
+      "feature": {
+        "type": "Feature",
+        "geometry": {
+          "coordinates": [
+            142.16906599665225,
+            63.304961588560225
+          ],
+          "type": "Point"
+        },
+        "properties": {
+          "name": "UNIT",
+          "description": "жилье",
+          "stage": "ЦЕЛЕВОЙ",
+          "function": "РАЗМЕЩЕНИЕ"
+        },
+        "id": 168165137
+      },
+      "id": 168165137
+    },
+    {
+      "feature": {
+        "type": "Feature",
+        "geometry": {
+          "coordinates": [
+            143.55900924743494,
+            62.55655762165771
+          ],
+          "type": "Point"
+        },
+        "properties": {
+          "name": "НАУЧНЫЙ ЦЕНТР",
+          "stage": "ЦЕЛЕВОЙ",
+          "function": "ЛОКАЦИЯ НАУЧНОГО ЦЕНТРА"
+        },
+        "id": 168165138
+      },
+      "id": 168165138
+    },
+    {
+      "feature": {
+        "type": "Feature",
+        "geometry": {
+          "coordinates": [
+            144.32767039871854,
+            62.83682402837199
+          ],
+          "type": "Point"
+        },
+        "properties": {
+          "name": "CAMP",
+          "stage": "ЦЕЛЕВОЙ",
+          "function": "РАЗМЕЩЕНИЕ",
+          "description": "жилье"
+        },
+        "id": 168165139
+      },
+      "id": 168165139
+    },
+    {
+      "feature": {
+        "type": "Feature",
+        "geometry": {
+          "coordinates": [
+            143.25943205068333,
+            64.56254928276825
+          ],
+          "type": "Point"
+        },
+        "properties": {
+          "name": "волгабас гараж",
+          "stage": "ЦЕЛЕВОЙ",
+          "function": "НАЗЕМНЫЙ ТРАНСПОРТ"
+        },
+        "id": 168165140
+      },
+      "id": 168165140
+    },
+    {
+      "feature": {
+        "type": "Feature",
+        "geometry": {
+          "coordinates": [
+            143.26169740954163,
+            64.56368031900023
+          ],
+          "type": "Point"
+        },
+        "properties": {
+          "name": "дирижабль причал",
+          "stage": "ЦЕЛЕВОЙ",
+          "function": "ВОЗДУШНЫЙ ТРАНСПОРТ"
+        },
+        "id": 168165141
+      },
+      "id": 168165141
+    },
+    {
+      "feature": {
+        "type": "Feature",
+        "geometry": {
+          "coordinates": [
+            143.26569800709328,
+            66.45003418605293
+          ],
+          "type": "Point"
+        },
+        "properties": {
+          "name": "дирижабль причал",
+          "stage": "ЦЕЛЕВОЙ",
+          "function": "ВОЗДУШНЫЙ ТРАНСПОРТ"
+        },
+        "id": 168165142
+      },
+      "id": 168165142
+    },
+    {
+      "feature": {
+        "type": "Feature",
+        "geometry": {
+          "coordinates": [
+            143.22898814572096,
+            66.45318804878038
+          ],
+          "type": "Point"
+        },
+        "properties": {
+          "name": "UNIT",
+          "stage": "ЦЕЛЕВОЙ",
+          "function": "РАЗМЕЩЕНИЕ",
+          "description": "жилье"
+        },
+        "id": 168165143
+      },
+      "id": 168165143
+    },
+    {
+      "feature": {
+        "type": "Feature",
+        "geometry": {
+          "coordinates": [
+            143.2448565029773,
+            66.44443698062513
+          ],
+          "type": "Point"
+        },
+        "properties": {
+          "name": "НАУЧНЫЙ ЦЕНТР",
+          "stage": "ЦЕЛЕВОЙ",
+          "function": "ЛОКАЦИЯ НАУЧНОГО ЦЕНТРА"
+        },
+        "id": 168165144
+      },
+      "id": 168165144
+    },
+    {
+      "feature": {
+        "type": "Feature",
+        "geometry": {
+          "coordinates": [
+            147.0794297204837,
+            65.16916588057082
+          ],
+          "type": "Point"
+        },
+        "properties": {
+          "name": "дирижабль причал",
+          "stage": "ЦЕЛЕВОЙ",
+          "function": "ВОЗДУШНЫЙ ТРАНСПОРТ"
+        },
+        "id": 168165145
+      },
+      "id": 168165145
+    },
+    {
+      "feature": {
+        "type": "Feature",
+        "geometry": {
+          "coordinates": [
+            144.0256122287343,
+            63.15327842372365
+          ],
+          "type": "Point"
+        },
+        "properties": {
+          "name": "дрон",
+          "stage": "ЦЕЛЕВОЙ",
+          "function": "ВОЗДУШНЫЙ ТРАНСПОРТ"
+        },
+        "id": 168165147
+      },
+      "id": 168165147
+    },
+    {
+      "feature": {
+        "type": "Feature",
+        "geometry": {
+          "coordinates": [
+            129.93688180861716,
+            61.94083497903069
+          ],
+          "type": "Point"
+        },
+        "properties": {
+          "name": "дирижабль причал",
+          "stage": "ЦЕЛЕВОЙ",
+          "function": "ВОЗДУШНЫЙ ТРАНСПОРТ"
+        },
+        "id": 168165148
+      },
+      "id": 168165148
+    },
+    {
+      "feature": {
+        "type": "Feature",
+        "geometry": {
+          "coordinates": [
+            133.57371048901894,
+            62.36683905789727
+          ],
+          "type": "Point"
+        },
+        "properties": {
+          "name": "UNIT",
+          "stage": "ЦЕЛЕВОЙ",
+          "function": "РАЗМЕЩЕНИЕ",
+          "description": "жилье"
+        },
+        "id": 168165149
+      },
+      "id": 168165149
+    },
+    {
+      "feature": {
+        "type": "Feature",
+        "geometry": {
+          "coordinates": [
+            132.4296887065509,
+            61.99939964458765
+          ],
+          "type": "Point"
+        },
+        "properties": {
+          "name": "UNIT",
+          "description": "жилье",
+          "stage": "ЦЕЛЕВОЙ",
+          "function": "РАЗМЕЩЕНИЕ"
+        },
+        "id": 168165150
+      },
+      "id": 168165150
+    },
+    {
+      "feature": {
+        "type": "Feature",
+        "geometry": {
+          "coordinates": [
+            135.58282676626828,
+            62.65342623994785
+          ],
+          "type": "Point"
+        },
+        "properties": {
+          "name": "UNIT",
+          "description": "жилье",
+          "stage": "ЦЕЛЕВОЙ",
+          "function": "РАЗМЕЩЕНИЕ"
+        },
+        "id": 168165151
+      },
+      "id": 168165151
+    },
+    {
+      "feature": {
+        "type": "Feature",
+        "geometry": {
+          "coordinates": [
+            150.92264871585718,
+            65.73926350306955
+          ],
+          "type": "Point"
+        },
+        "properties": {
+          "name": "дирижабль причал",
+          "stage": "ЦЕЛЕВОЙ",
+          "function": "ВОЗДУШНЫЙ ТРАНСПОРТ"
+        },
+        "id": 168165152
+      },
+      "id": 168165152
+    },
+    {
+      "feature": {
+        "type": "Feature",
+        "geometry": {
+          "coordinates": [
+            147.18638936066503,
+            63.04570760376329
+          ],
+          "type": "Point"
+        },
+        "properties": {
+          "name": "UNIT",
+          "description": "жилье",
+          "stage": "ЦЕЛЕВОЙ",
+          "function": "РАЗМЕЩЕНИЕ"
+        },
+        "id": 168165153
+      },
+      "id": 168165153
+    },
+    {
+      "feature": {
+        "type": "Feature",
+        "geometry": {
+          "coordinates": [
+            148.07920288056246,
+            63.69568976497819
+          ],
+          "type": "Point"
+        },
+        "properties": {
+          "name": "дирижабль причал",
+          "stage": "ЦЕЛЕВОЙ",
+          "function": "ВОЗДУШНЫЙ ТРАНСПОРТ"
+        },
+        "id": 168165154
+      },
+      "id": 168165154
+    },
+    {
+      "feature": {
+        "type": "Feature",
+        "geometry": {
+          "coordinates": [
+            150.93246649804658,
+            60.10804791214063
+          ],
+          "type": "Point"
+        },
+        "properties": {
+          "name": "дирижабль причал",
+          "stage": "ЦЕЛЕВОЙ",
+          "function": "ВОЗДУШНЫЙ ТРАНСПОРТ"
+        },
+        "id": 168165155
+      },
+      "id": 168165155
+    },
+    {
+      "feature": {
+        "type": "Feature",
+        "geometry": {
+          "coordinates": [
+            142.34280939680477,
+            60.083246010661234
+          ],
+          "type": "Point"
+        },
+        "properties": {
+          "name": "дирижабль причал",
+          "stage": "ЦЕЛЕВОЙ",
+          "function": "ВОЗДУШНЫЙ ТРАНСПОРТ"
+        },
+        "id": 168165156
+      },
+      "id": 168165156
+    },
+    {
+      "feature": {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            129.6754745,
+            62.0354523,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Якутск",
+          "description": "\n\n"
+        },
+        "id": 168165158
+      },
+      "id": 168165158
+    },
+    {
+      "feature": {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            142.083022,
+            64.2452239,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Тейрут",
+          "description": "\n\n"
+        },
+        "id": 168165159
+      },
+      "id": 168165159
+    },
+    {
+      "feature": {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            135.5539801,
+            62.6564079,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Хандыга",
+          "description": "\n\n"
+        },
+        "id": 168165160
+      },
+      "id": 168165160
+    },
+    {
+      "feature": {
+        "type": "Feature",
+        "geometry": {
+          "coordinates": [
+            142.73332838812533,
+            63.47595482640424
+          ],
+          "type": "Point"
+        },
+        "properties": {
+          "name": "Хара-Тумул",
+          "description": "\n\n"
+        },
+        "id": 168165164
+      },
+      "id": 168165164
+    },
+    {
+      "feature": {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            142.888333,
+            63.4525,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Берег-Юрдя",
+          "description": "\n\n"
+        },
+        "id": 168165165
+      },
+      "id": 168165165
+    },
+    {
+      "feature": {
+        "type": "Feature",
+        "geometry": {
+          "coordinates": [
+            143.41644332978626,
+            62.03422719654251
+          ],
+          "type": "Point"
+        },
+        "properties": {
+          "name": "Хребет Сунтар-Хаята",
+          "description": "\n\n"
+        },
+        "id": 168165166
+      },
+      "id": 168165166
+    },
+    {
+      "feature": {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            143.3548252,
+            62.0662904,
+            0
+          ]
+        },
+        "properties": {
+          "name": "оз. Водораздельное",
+          "description": "\n\n"
+        },
+        "id": 168165167
+      },
+      "id": 168165167
+    },
+    {
+      "feature": {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            143.4358961,
+            62.6328726,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Промежуточный пункт остановки",
+          "description": "\n\n"
+        },
+        "id": 168165168
+      },
+      "id": 168165168
+    },
+    {
+      "feature": {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            139.2259368,
+            70.719002,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Тумат",
+          "description": "\n\n"
+        },
+        "id": 168165169
+      },
+      "id": 168165169
+    },
+    {
+      "feature": {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            151.6285891,
+            61.4865493,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Днепровский рудник",
+          "description": "\n\n"
+        },
+        "id": 168165171
+      },
+      "id": 168165171
+    },
+    {
+      "feature": {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            126.2725057,
+            58.9637041,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Томмот",
+          "description": " (Немнырлаг)\n\n"
+        },
+        "id": 168165172
+      },
+      "id": 168165172
+    },
+    {
+      "feature": {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            134.6832048,
+            67.543446,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Эсэ-Хайя",
+          "description": "\n\n"
+        },
+        "id": 168165173
+      },
+      "id": 168165173
+    },
+    {
+      "feature": {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            136.806549,
+            62.779167,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Теплый Ключ",
+          "description": "\n\n"
+        },
+        "id": 168165174
+      },
+      "id": 168165174
+    },
+    {
+      "feature": {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            135.7797222,
+            65.2783333,
+            0
+          ]
+        },
+        "properties": {
+          "name": "озеро Эманджа",
+          "description": "\n\n"
+        },
+        "id": 168165176
+      },
+      "id": 168165176
+    },
+    {
+      "feature": {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            142.5472925,
+            64.6156736,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Ольчанский перевал",
+          "description": "\n\n"
+        },
+        "id": 168165177
+      },
+      "id": 168165177
+    },
+    {
+      "feature": {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            134.4407319,
+            67.6141279,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Юттях",
+          "description": "\n\n"
+        },
+        "id": 168165179
+      },
+      "id": 168165179
+    },
+    {
+      "feature": {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            129.77,
+            62.584167,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Партизан",
+          "description": "\n\n"
+        },
+        "id": 168165181
+      },
+      "id": 168165181
+    },
+    {
+      "feature": {
+        "type": "Feature",
+        "geometry": {
+          "coordinates": [
+            147.64040182265353,
+            62.656385168088704
+          ],
+          "type": "Point"
+        },
+        "properties": {
+          "name": "Большевик",
+          "description": "\n\n"
+        },
+        "id": 168165183
+      },
+      "id": 168165183
+    },
+    {
+      "feature": {
+        "type": "Feature",
+        "geometry": {
+          "coordinates": [
+            131.83288159169047,
+            62.387461928630465
+          ],
+          "type": "Point"
+        },
+        "properties": {
+          "name": "Балаганнах",
+          "description": "\n\n"
+        },
+        "id": 168165184
+      },
+      "id": 168165184
+    },
+    {
+      "feature": {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            143.2314281,
+            63.1284508,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Коневодческая база",
+          "description": "\n\nсо слов о Фотоэкспедиции на озеро Лабынкыр"
+        },
+        "id": 168165186
+      },
+      "id": 168165186
+    },
+    {
+      "feature": {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            140.5918918,
+            63.4346877,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Кюбюме",
+          "description": "\n\n"
+        },
+        "id": 168165187
+      },
+      "id": 168165187
+    },
+    {
+      "feature": {
+        "type": "Feature",
+        "geometry": {
+          "coordinates": [
+            147.8577341902451,
+            61.65462024079802
+          ],
+          "type": "Point"
+        },
+        "properties": {
+          "name": "Омчак",
+          "description": "\n\n"
+        },
+        "id": 168165190
+      },
+      "id": 168165190
+    },
+    {
+      "feature": {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            150.9490001,
+            60.1063658,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Палатка",
+          "description": "\n\n"
+        },
+        "id": 168165191
+      },
+      "id": 168165191
+    },
+    {
+      "feature": {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            139.0485106,
+            62.5040609,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Нежданинский рудник",
+          "description": "\n\n"
+        },
+        "id": 168165192
+      },
+      "id": 168165192
+    },
+    {
+      "feature": {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            149.6159883,
+            61.143306,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Усть-Омчуг",
+          "description": "\n\n"
+        },
+        "id": 168165196
+      },
+      "id": 168165196
+    },
+    {
+      "feature": {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            138.05,
+            61.133333,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Аллах-Юнь",
+          "description": "\n\n"
+        },
+        "id": 168165199
+      },
+      "id": 168165199
+    },
+    {
+      "feature": {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            134.333333,
+            70.633333,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Кулар",
+          "description": "\n\n"
+        },
+        "id": 168165200
+      },
+      "id": 168165200
+    },
+    {
+      "feature": {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            137.55,
+            60.3,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Солнечный",
+          "description": "артель\n\n"
+        },
+        "id": 168165201
+      },
+      "id": 168165201
+    },
+    {
+      "feature": {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            137.666667,
+            60.483333,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Звездочка",
+          "description": "артель\n\n"
+        },
+        "id": 168165202
+      },
+      "id": 168165202
+    },
+    {
+      "feature": {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            150.8281242,
+            59.5602272,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Магадан",
+          "description": "\n\n"
+        },
+        "id": 168165205
+      },
+      "id": 168165205
+    },
+    {
+      "feature": {
+        "type": "Feature",
+        "geometry": {
+          "coordinates": [
+            142.44014640526441,
+            63.376848744084946
+          ],
+          "type": "Point"
+        },
+        "properties": {
+          "name": "Река Куйдусун",
+          "description": "Видовая точка \nhttps://karpukhins.livejournal.com/129266.html\n\nописание: Видовая точка <br>https://karpukhins.livejournal.com/129266.html<br>id: 166795000<br>iconContent: <br>iconCaption: точка 1 у р Куйдусун"
+        },
+        "id": 168165206
+      },
+      "id": 168165206
+    },
+    {
+      "feature": {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            143.656936,
+            66.181057,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Момская наледь\n",
+          "description": "Вероятно самая большая наледь мира.\nДеградирует\n\nЛетом туда можно добраться только на моторной лодке вверх по Моме, на впадении которой в Индигирку и расположен посёлок Хонуу.\nhttps://karpukhins.livejournal.com/275216.html\nhttps://karpukhins.livejournal.com/216915.html\nhttps://karpukhins.livejournal.com/42306.html\n\nописание: Вероятно самая большая наледь мира.<br>Деградирует<br><br>Летом туда можно добраться только на моторной лодке вверх по Моме, на впадении которой в Индигирку и расположен посёлок Хонуу.<br>https://karpukhins.livejournal.com/275216.html<br>https://karpukhins.livejournal.com/216915.html<br>https://karpukhins.livejournal.com/42306.html<br>id: 166819636<br>iconContent: <br>iconCaption: Большая Момская наледь (Место не точно)"
+        },
+        "id": 168165212
+      },
+      "id": 168165212
+    },
+    {
+      "feature": {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            135.962785,
+            64.073223,
+            0
+          ]
+        },
+        "properties": {
+          "name": "село Тополиное",
+          "description": "\n\nописание: <br>id: 168127959<br>iconContent: <br>iconCaption: пос Тополиное, часть зимника"
+        },
+        "id": 168165213
+      },
+      "id": 168165213
+    },
+    {
+      "feature": {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            134.6277,
+            67.654462,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Батагай",
+          "description": ""
+        },
+        "id": 168165214
+      },
+      "id": 168165214
+    },
+    {
+      "feature": {
+        "type": "Feature",
+        "geometry": {
+          "coordinates": [
+            143.22859585083413,
+            66.45574683913067
+          ],
+          "type": "Point"
+        },
+        "properties": {
+          "name": "Хонуу",
+          "description": "\n\nописание: <br>id: 168165090<br>iconContent: <br>iconCaption: "
+        },
+        "id": 168165215
+      },
+      "id": 168165215
+    },
+    {
+      "feature": {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            142.64182,
+            65.426765,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Индигирка",
+          "description": "Узкое место на Индигирке с порогами, зимой с наледью. Хр. Черскогоhttps://karpukhins.livejournal.com/136574.html\n\nописание: <br>id: 168165091<br>iconContent: <br>iconCaption: &quot;ТРУБА&quot;"
+        },
+        "id": 168165216
+      },
+      "id": 168165216
+    },
+    {
+      "feature": {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            142.301927,
+            65.629195,
+            0
+          ]
+        },
+        "properties": {
+          "name": "озеро Сыгарымни\n",
+          "description": "https://karpukhins.livejournal.com/140008.html\n\nописание: Россия, Республика Саха (Якутия), Момский муниципальный район, озеро Сыгарымни<br>https://karpukhins.livejournal.com/140008.html<br>id: 168165093<br>iconContent: <br>iconCaption: оз Сыгарымни"
+        },
+        "id": 168165217
+      },
+      "id": 168165217
+    },
+    {
+      "feature": {
+        "type": "Feature",
+        "geometry": {
+          "coordinates": [
+            128.75436902160368,
+            61.20793886923012
+          ],
+          "type": "Point"
+        },
+        "properties": {
+          "name": "CAMP",
+          "stage": "ЦЕЛЕВОЙ",
+          "function": "РАЗМЕЩЕНИЕ"
+        },
+        "id": 168165218
+      },
+      "id": 168165218
+    },
+    {
+      "feature": {
+        "type": "Feature",
+        "geometry": {
+          "coordinates": [
+            143.1839424163559,
+            63.25756691634193
+          ],
+          "type": "Point"
+        },
+        "properties": {
+          "name": "НАУЧНЫЙ ЦЕНТР",
+          "stage": "ЦЕЛЕВОЙ",
+          "function": "ЛОКАЦИЯ НАУЧНОГО ЦЕНТРА"
+        },
+        "id": 168165219
+      },
+      "id": 168165219
+    },
+    {
+      "feature": {
+        "type": "Feature",
+        "geometry": {
+          "coordinates": [
+            150.87379592838573,
+            65.73732764896877
+          ],
+          "type": "Point"
+        },
+        "properties": {
+          "name": "НАУЧНЫЙ ЦЕНТР",
+          "stage": "ЦЕЛЕВОЙ",
+          "function": "ЛОКАЦИЯ НАУЧНОГО ЦЕНТРА"
+        },
+        "id": 168165220
+      },
+      "id": 168165220
+    },
+    {
+      "feature": {
+        "type": "Feature",
+        "geometry": {
+          "coordinates": [
+            134.6490706953054,
+            67.64930656275008
+          ],
+          "type": "Point"
+        },
+        "properties": {
+          "name": "дирижабль причал",
+          "stage": "ЦЕЛЕВОЙ",
+          "function": "ВОЗДУШНЫЙ ТРАНСПОРТ"
+        },
+        "id": 168165221
+      },
+      "id": 168165221
+    },
+    {
+      "feature": {
+        "type": "Feature",
+        "geometry": {
+          "coordinates": [
+            137.5598964025575,
+            60.30006195663566
+          ],
+          "type": "Point"
+        },
+        "properties": {
+          "name": "дирижабль причал",
+          "stage": "ЦЕЛЕВОЙ",
+          "function": "ВОЗДУШНЫЙ ТРАНСПОРТ"
+        },
+        "id": 168165222
+      },
+      "id": 168165222
+    },
+    {
+      "feature": {
+        "type": "Feature",
+        "geometry": {
+          "coordinates": [
+            135.18007768858348,
+            60.769214913156034
+          ],
+          "type": "Point"
+        },
+        "properties": {
+          "name": "дирижабль причал",
+          "stage": "ЦЕЛЕВОЙ",
+          "function": "ВОЗДУШНЫЙ ТРАНСПОРТ"
+        },
+        "id": 168165223
+      },
+      "id": 168165223
+    },
+    {
+      "feature": {
+        "type": "Feature",
+        "geometry": {
+          "coordinates": [
+            180.57251005688417,
+            71.17910926737812
+          ],
+          "type": "Point"
+        },
+        "properties": {
+          "name": "остров Врангеля"
+        },
+        "id": 168165225
+      },
+      "id": 168165225
+    },
+    {
+      "feature": {
+        "type": "Feature",
+        "geometry": {
+          "coordinates": [
+            54.15482257186406,
+            71.30270597766437
+          ],
+          "type": "Point"
+        },
+        "properties": {
+          "name": "стоянка (зимовка) Баренца"
+        },
+        "id": 168165226
+      },
+      "id": 168165226
+    },
+    {
+      "feature": {
+        "type": "Feature",
+        "geometry": {
+          "coordinates": [
+            65.76183174118381,
+            76.23643646649401
+          ],
+          "type": "Point"
+        },
+        "properties": {
+          "name": "нац. парк Русская Арктика"
+        },
+        "id": 168165227
+      },
+      "id": 168165227
+    },
+    {
+      "feature": {
+        "type": "Feature",
+        "geometry": {
+          "coordinates": [
+            19.493922390203497,
+            78.99782842592546
+          ],
+          "type": "Point"
+        },
+        "properties": {
+          "name": "Шпицберген"
+        },
+        "id": 168165228
+      },
+      "id": 168165228
+    },
+    {
+      "feature": {
+        "type": "Feature",
+        "geometry": {
+          "coordinates": [
+            101.93038057515633,
+            60.89623392843403
+          ],
+          "type": "Point"
+        },
+        "properties": {
+          "name": "место падения Тунгусского метеорита"
+        },
+        "id": 168165229
+      },
+      "id": 168165229
+    },
+    {
+      "feature": {
+        "type": "Feature",
+        "geometry": {
+          "coordinates": [
+            191.08015661134982,
+            65.71148569736046
+          ],
+          "type": "Point"
+        },
+        "properties": {
+          "name": "остров Крузенштерна",
+          "description": "\"ничья\" земля"
+        },
+        "id": 168165230
+      },
+      "id": 168165230
+    },
+    {
+      "feature": {
+        "type": "Feature",
+        "geometry": {
+          "coordinates": [
+            67.7732337174771,
+            70.48589548539334
+          ],
+          "type": "Point"
+        },
+        "properties": {
+          "name": "Ямальский кратер"
+        },
+        "id": 168165231
+      },
+      "id": 168165231
+    },
+    {
+      "feature": {
+        "type": "Feature",
+        "geometry": {
+          "coordinates": [
+            140.62472406965904,
+            74.07793042137432
+          ],
+          "type": "Point"
+        },
+        "properties": {
+          "name": "остров Малый Ляховский",
+          "description": "в 2012 году был найден Малоляховский мамонт (Mammuthus primigenius) с незамерзающей кровью["
+        },
+        "id": 168165232
+      },
+      "id": 168165232
+    },
+    {
+      "feature": {
+        "type": "Feature",
+        "geometry": {
+          "coordinates": [
+            143.43887270891685,
+            46.073577040995474
+          ],
+          "type": "Point"
+        },
+        "properties": {
+          "name": "остров Сахалин",
+          "description": "Атомный маяк и Тюлений остров"
+        },
+        "id": 168165233
+      },
+      "id": 168165233
+    },
+    {
+      "feature": {
+        "type": "Feature",
+        "geometry": {
+          "coordinates": [
+            148.72371977380888,
+            45.45034323261524
+          ],
+          "type": "Point"
+        },
+        "properties": {
+          "name": "Курильские острова"
+        },
+        "id": 168165234
+      },
+      "id": 168165234
+    },
+    {
+      "feature": {
+        "type": "Feature",
+        "geometry": {
+          "coordinates": [
+            160.3121993605317,
+            54.555044871080455
+          ],
+          "type": "Point"
+        },
+        "properties": {
+          "name": "полуостров Камчатка"
+        },
+        "id": 168165235
+      },
+      "id": 168165235
+    },
+    {
+      "feature": {
+        "type": "Feature",
+        "geometry": {
+          "coordinates": [
+            126.74195114053285,
+            72.42930415035649
+          ],
+          "type": "Point"
+        },
+        "properties": {
+          "name": "Усть-Ленский заповедник"
+        },
+        "id": 168165236
+      },
+      "id": 168165236
+    },
+    {
+      "feature": {
+        "type": "Feature",
+        "geometry": {
+          "coordinates": [
+            35.16207883952909,
+            69.15341599086322
+          ],
+          "type": "Point"
+        },
+        "properties": {
+          "name": "Териберка"
+        },
+        "id": 168165237
+      },
+      "id": 168165237
+    },
+    {
+      "feature": {
+        "type": "Feature",
+        "geometry": {
+          "coordinates": [
+            30.532805472203627,
+            69.38008292538485
+          ],
+          "type": "Point"
+        },
+        "properties": {
+          "name": "Кольская сверхглубокая скважина"
+        },
+        "id": 168165238
+      },
+      "id": 168165238
+    },
+    {
+      "feature": {
+        "type": "Feature",
+        "geometry": {
+          "coordinates": [
+            149.2982237203851,
+            71.1230006239828
+          ],
+          "type": "Point"
+        },
+        "properties": {
+          "name": "Русское Устье"
+        },
+        "id": 168165239
+      },
+      "id": 168165239
+    },
+    {
+      "feature": {
+        "type": "Feature",
+        "geometry": {
+          "coordinates": [
+            142.53924599573864,
+            64.61892200462131
+          ],
+          "type": "Point"
+        },
+        "properties": {
+          "name": "CAMP",
+          "stage": "СТАРТОВЫЙ",
+          "function": "РАЗМЕЩЕНИЕ"
+        },
+        "id": 168165240
+      },
+      "id": 168165240
+    },
+    {
+      "feature": {
+        "type": "Feature",
+        "geometry": {
+          "coordinates": [
+            142.4004791261876,
+            65.63078726365498
+          ],
+          "type": "Point"
+        },
+        "properties": {
+          "name": "ДРОН",
+          "stage": "ЦЕЛЕВОЙ",
+          "function": "ВОЗДУШНЫЙ ТРАНСПОРТ"
+        },
+        "id": 168165241
+      },
+      "id": 168165241
+    },
+    {
+      "feature": {
+        "type": "Feature",
+        "geometry": {
+          "coordinates": [
+            143.801095075624,
+            66.19275039837017
+          ],
+          "type": "Point"
+        },
+        "properties": {
+          "name": "ДРОН",
+          "stage": "ЦЕЛЕВОЙ",
+          "function": "ВОЗДУШНЫЙ ТРАНСПОРТ"
+        },
+        "id": 168165242
+      },
+      "id": 168165242
+    },
+    {
+      "feature": {
+        "type": "Feature",
+        "geometry": {
+          "coordinates": [
+            141.9128220842593,
+            64.0640270646506
+          ],
+          "type": "Point"
+        },
+        "properties": {
+          "name": "ДРОН",
+          "stage": "ЦЕЛЕВОЙ",
+          "function": "ВОЗДУШНЫЙ ТРАНСПОРТ"
+        },
+        "id": 168165243
+      },
+      "id": 168165243
+    },
+    {
+      "feature": {
+        "type": "Feature",
+        "geometry": {
+          "coordinates": [
+            135.86793171385608,
+            65.23349035464892
+          ],
+          "type": "Point"
+        },
+        "properties": {
+          "name": "ДРОН",
+          "stage": "ЦЕЛЕВОЙ",
+          "function": "ВОЗДУШНЫЙ ТРАНСПОРТ"
+        },
+        "id": 168165244
+      },
+      "id": 168165244
+    },
+    {
+      "feature": {
+        "type": "Feature",
+        "geometry": {
+          "coordinates": [
+            143.65944364636204,
+            62.422078496289636
+          ],
+          "type": "Point"
+        },
+        "properties": {
+          "name": "ДРОН",
+          "stage": "ЦЕЛЕВОЙ",
+          "function": "ВОЗДУШНЫЙ ТРАНСПОРТ"
+        },
+        "id": 168165245
+      },
+      "id": 168165245
+    },
+    {
+      "feature": {
+        "type": "Feature",
+        "geometry": {
+          "coordinates": [
+            144.37443291287747,
+            62.85372065466946
+          ],
+          "type": "Point"
+        },
+        "properties": {
+          "name": "ДРОН",
+          "stage": "ЦЕЛЕВОЙ",
+          "function": "ВОЗДУШНЫЙ ТРАНСПОРТ"
+        },
+        "id": 168165246
+      },
+      "id": 168165246
+    },
+    {
+      "feature": {
+        "type": "Feature",
+        "geometry": {
+          "coordinates": [
+            131.17503065422537,
+            62.69078018071133
+          ],
+          "type": "Point"
+        },
+        "properties": {
+          "name": "ДРОН",
+          "stage": "ЦЕЛЕВОЙ",
+          "function": "ВОЗДУШНЫЙ ТРАНСПОРТ"
+        },
+        "id": 168165247
+      },
+      "id": 168165247
+    },
+    {
+      "feature": {
+        "type": "Feature",
+        "geometry": {
+          "coordinates": [
+            135.8621381017307,
+            62.21842727304788
+          ],
+          "type": "Point"
+        },
+        "properties": {
+          "name": "дирижабль причал",
+          "stage": "ЦЕЛЕВОЙ",
+          "function": "ВОЗДУШНЫЙ ТРАНСПОРТ"
+        },
+        "id": 168165248
+      },
+      "id": 168165248
+    },
+    {
+      "feature": {
+        "type": "Feature",
+        "geometry": {
+          "coordinates": [
+            135.85617018681404,
+            62.210234785298574
+          ],
+          "type": "Point"
+        },
+        "properties": {
+          "name": "HOM",
+          "stage": "ЦЕЛЕВОЙ",
+          "function": "РАЗМЕЩЕНИЕ"
+        },
+        "id": 168165249
+      },
+      "id": 168165249
+    },
+    {
+      "feature": {
+        "type": "Feature",
+        "geometry": {
+          "coordinates": [
+            135.15857913555726,
+            60.7725878208396
+          ],
+          "type": "Point"
+        },
+        "properties": {
+          "name": "UNIT",
+          "stage": "ЦЕЛЕВОЙ",
+          "function": "РАЗМЕЩЕНИЕ"
+        },
+        "id": 168165250
+      },
+      "id": 168165250
+    },
+    {
+      "feature": {
+        "type": "Feature",
+        "geometry": {
+          "coordinates": [
+            134.5340487255623,
+            60.418753146914085
+          ],
+          "type": "Point"
+        },
+        "properties": {
+          "name": "ДРОН",
+          "stage": "ЦЕЛЕВОЙ",
+          "function": "ВОЗДУШНЫЙ ТРАНСПОРТ"
+        },
+        "id": 168165251
+      },
+      "id": 168165251
+    },
+    {
+      "feature": {
+        "type": "Feature",
+        "geometry": {
+          "coordinates": [
+            137.67860225782707,
+            60.494986366668314
+          ],
+          "type": "Point"
+        },
+        "properties": {
+          "name": "ДРОН",
+          "stage": "ЦЕЛЕВОЙ",
+          "function": "ВОЗДУШНЫЙ ТРАНСПОРТ"
+        },
+        "id": 168165252
+      },
+      "id": 168165252
+    },
+    {
+      "feature": {
+        "type": "Feature",
+        "geometry": {
+          "coordinates": [
+            139.05057581323675,
+            62.51161325153755
+          ],
+          "type": "Point"
+        },
+        "properties": {
+          "name": "ДРОН",
+          "stage": "ЦЕЛЕВОЙ",
+          "function": "ВОЗДУШНЫЙ ТРАНСПОРТ"
+        },
+        "id": 168165253
+      },
+      "id": 168165253
+    },
+    {
+      "feature": {
+        "type": "Feature",
+        "geometry": {
+          "coordinates": [
+            148.15024296590894,
+            62.776687630171104
+          ],
+          "type": "Point"
+        },
+        "properties": {
+          "name": "ДРОН",
+          "stage": "ЦЕЛЕВОЙ",
+          "function": "ВОЗДУШНЫЙ ТРАНСПОРТ"
+        },
+        "id": 168165254
+      },
+      "id": 168165254
+    },
+    {
+      "feature": {
+        "type": "Feature",
+        "geometry": {
+          "coordinates": [
+            147.5821385176211,
+            62.690143155847075
+          ],
+          "type": "Point"
+        },
+        "properties": {
+          "name": "ДРОН",
+          "stage": "ЦЕЛЕВОЙ",
+          "function": "ВОЗДУШНЫЙ ТРАНСПОРТ"
+        },
+        "id": 168165256
+      },
+      "id": 168165256
+    },
+    {
+      "feature": {
+        "type": "Feature",
+        "geometry": {
+          "coordinates": [
+            145.13874012961503,
+            64.1800942275671
+          ],
+          "type": "Point"
+        },
+        "properties": {
+          "name": "ДРОН",
+          "stage": "ЦЕЛЕВОЙ",
+          "function": "ВОЗДУШНЫЙ ТРАНСПОРТ"
+        },
+        "id": 168165257
+      },
+      "id": 168165257
+    },
+    {
+      "feature": {
+        "type": "Feature",
+        "geometry": {
+          "coordinates": [
+            145.13218243885788,
+            64.18425161993682
+          ],
+          "type": "Point"
+        },
+        "properties": {
+          "name": "SUIT",
+          "stage": "ЦЕЛЕВОЙ",
+          "function": "РАЗМЕЩЕНИЕ"
+        },
+        "id": 168165258
+      },
+      "id": 168165258
+    },
+    {
+      "feature": {
+        "type": "Feature",
+        "geometry": {
+          "coordinates": [
+            147.88303847805255,
+            61.64265209983864
+          ],
+          "type": "Point"
+        },
+        "properties": {
+          "name": "дирижабль причал",
+          "stage": "ЦЕЛЕВОЙ",
+          "function": "ВОЗДУШНЫЙ ТРАНСПОРТ"
+        },
+        "id": 168165259
+      },
+      "id": 168165259
+    },
+    {
+      "feature": {
+        "type": "Feature",
+        "geometry": {
+          "coordinates": [
+            147.85847158006294,
+            61.65198226974051
+          ],
+          "type": "Point"
+        },
+        "properties": {
+          "name": "SUIT",
+          "stage": "ЦЕЛЕВОЙ",
+          "function": "РАЗМЕЩЕНИЕ"
+        },
+        "id": 168165260
+      },
+      "id": 168165260
+    },
+    {
+      "feature": {
+        "type": "Feature",
+        "geometry": {
+          "coordinates": [
+            135.85560521829825,
+            62.1810397500033
+          ],
+          "type": "Point"
+        },
+        "properties": {
+          "name": "НАУЧНЫЙ ЦЕНТР",
+          "stage": "ЦЕЛЕВОЙ",
+          "function": "ЛОКАЦИЯ НАУЧНОГО ЦЕНТРА"
+        },
+        "id": 168165261
+      },
+      "id": 168165261
+    },
+    {
+      "feature": {
+        "type": "Feature",
+        "geometry": {
+          "coordinates": [
+            149.50032510117452,
+            62.10367868519676
+          ],
+          "type": "Point"
+        },
+        "properties": {
+          "name": "НАУЧНЫЙ ЦЕНТР",
+          "stage": "ЦЕЛЕВОЙ",
+          "function": "ЛОКАЦИЯ НАУЧНОГО ЦЕНТРА"
+        },
+        "id": 168165262
+      },
+      "id": 168165262
+    },
+    {
+      "feature": {
+        "type": "Feature",
+        "geometry": {
+          "coordinates": [
+            149.6374632706178,
+            62.520541186679104
+          ],
+          "type": "Point"
+        },
+        "properties": {
+          "name": "UNIT",
+          "stage": "ЦЕЛЕВОЙ",
+          "function": "РАЗМЕЩЕНИЕ"
+        },
+        "id": 168165263
+      },
+      "id": 168165263
+    },
+    {
+      "feature": {
+        "type": "Feature",
+        "geometry": {
+          "coordinates": [
+            149.62114444307812,
+            62.52840934327388
+          ],
+          "type": "Point"
+        },
+        "properties": {
+          "name": "ДРОН",
+          "stage": "ЦЕЛЕВОЙ",
+          "function": "ВОЗДУШНЫЙ ТРАНСПОРТ"
+        },
+        "id": 168165264
+      },
+      "id": 168165264
+    },
+    {
+      "feature": {
+        "type": "Feature",
+        "geometry": {
+          "coordinates": [
+            149.5109503934544,
+            62.11056619347182
+          ],
+          "type": "Point"
+        },
+        "properties": {
+          "name": "ДРОН",
+          "stage": "ЦЕЛЕВОЙ",
+          "function": "ВОЗДУШНЫЙ ТРАНСПОРТ"
+        },
+        "id": 168165265
+      },
+      "id": 168165265
+    },
+    {
+      "feature": {
+        "type": "Feature",
+        "geometry": {
+          "coordinates": [
+            132.42307477664357,
+            62.000883442030556
+          ],
+          "type": "Point"
+        },
+        "properties": {
+          "name": "дирижабль причал",
+          "stage": "ЦЕЛЕВОЙ",
+          "function": "ВОЗДУШНЫЙ ТРАНСПОРТ"
+        },
+        "id": 168165266
+      },
+      "id": 168165266
+    },
+    {
+      "feature": {
+        "type": "Feature",
+        "geometry": {
+          "coordinates": [
+            143.23350707689966,
+            63.2615753359795
+          ],
+          "type": "Point"
+        },
+        "properties": {
+          "name": "волгабас гараж",
+          "stage": "СТАРТОВЫЙ",
+          "function": "НАЗЕМНЫЙ ТРАНСПОРТ"
+        },
+        "id": 168165267
+      },
+      "id": 168165267
+    },
+    {
+      "feature": {
+        "type": "Feature",
+        "geometry": {
+          "coordinates": [
+            144.0162170913215,
+            63.15665710642108
+          ],
+          "type": "Point"
+        },
+        "properties": {
+          "name": "волгабас",
+          "stage": "ЦЕЛЕВОЙ",
+          "function": "НАЗЕМНЫЙ ТРАНСПОРТ"
+        },
+        "id": 168165268
+      },
+      "id": 168165268
+    },
+    {
+      "feature": {
+        "type": "Feature",
+        "geometry": {
+          "coordinates": [
+            148.1398345354132,
+            62.7625302768126
+          ],
+          "type": "Point"
+        },
+        "properties": {
+          "name": "волгабас",
+          "stage": "ЦЕЛЕВОЙ",
+          "function": "НАЗЕМНЫЙ ТРАНСПОРТ"
+        },
+        "id": 168165269
+      },
+      "id": 168165269
+    },
+    {
+      "feature": {
+        "type": "Feature",
+        "geometry": {
+          "coordinates": [
+            148.1823817809105,
+            62.773346626900015
+          ],
+          "type": "Point"
+        },
+        "properties": {
+          "name": "UNIT",
+          "stage": "ЦЕЛЕВОЙ",
+          "function": "РАЗМЕЩЕНИЕ"
+        },
+        "id": 168165270
+      },
+      "id": 168165270
+    },
+    {
+      "feature": {
+        "type": "Feature",
+        "geometry": {
+          "coordinates": [
+            148.09079373342533,
+            63.70953496709955
+          ],
+          "type": "Point"
+        },
+        "properties": {
+          "name": "SUIT",
+          "stage": "ЦЕЛЕВОЙ",
+          "function": "РАЗМЕЩЕНИЕ"
+        },
+        "id": 168165271
+      },
+      "id": 168165271
+    }
+  ]
+}
