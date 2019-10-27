@@ -1,5 +1,7 @@
 # Oymyakon
 
+Read about project on [UNIT4](https://unit4.io/repository/oymyakon)
+
 ## Run
 
 ### Run database
