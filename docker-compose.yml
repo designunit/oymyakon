@@ -1,0 +1,18 @@
+version: "3.4"
+
+services:
+  json-api:
+    image: clue/json-server
+    restart: always
+    volumes:
+      - /var/data/dropbox/Oymyakon/db.json:/data/db.json
+    ports:
+      - 5580:80
+
+  app:
+    image: tmshv/oymyakon-maps
+    restart: always
+    ports:
+      - 5530:80
+    environment:
+      - APP_ACCESS_MODE=readonly
