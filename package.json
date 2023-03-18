@@ -35,7 +35,7 @@
         "react-color": "^2.17.3",
         "react-dom": "^16.8.6",
         "react-map-gl": "^5.0.7",
-        "react-mapbox-gl-cluster": "^0.2.0",
+        "react-mapbox-gl-cluster": "^1.19.0",
         "react-media": "^1.9.2",
         "react-simple-code-editor": "^0.9.14",
         "supercluster": "^6.0.2",
