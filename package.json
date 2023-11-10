@@ -20,7 +20,7 @@
         "@octokit/rest": "^16.28.6",
         "@turf/helpers": "^6.1.4",
         "antd": "^3.20.6",
-        "axios": "^0.21.2",
+        "axios": "^1.6.0",
         "csv": "^5.1.1",
         "fast-deep-equal": "^2.0.1",
         "is-promise": "^2.1.0",
