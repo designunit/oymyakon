@@ -8,7 +8,7 @@
     "scripts": {
         "start": "next start",
         "dev": "next",
-        "build": "next build && next export -o public",
+        "build": "next build && next export -o dist",
         "test": "jest --forceExit --coverage --verbose"
     },
     "keywords": [],
