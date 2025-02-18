@@ -17,7 +17,7 @@
     "dependencies": {
         "@mapbox/togeojson": "^0.16.0",
         "@nivo/sankey": "^0.59.1",
-        "@octokit/rest": "^16.28.6",
+        "@octokit/rest": "^21.1.1",
         "@turf/helpers": "^6.1.4",
         "antd": "^3.20.6",
         "axios": "^1.7.7",
